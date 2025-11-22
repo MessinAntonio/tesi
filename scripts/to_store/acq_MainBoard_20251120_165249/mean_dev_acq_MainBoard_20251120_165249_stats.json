@@ -1,0 +1,160 @@
+{
+    "acq_MainBoard_20251120_165249": {
+        "pedestal": {
+            "01": {
+                "mean": 264.2383223010361,
+                "std": 0.862920044323877
+            },
+            "02": {
+                "mean": null,
+                "std": null
+            },
+            "03": {
+                "mean": null,
+                "std": null
+            },
+            "04": {
+                "mean": null,
+                "std": null
+            },
+            "05": {
+                "mean": null,
+                "std": null
+            },
+            "06": {
+                "mean": null,
+                "std": null
+            },
+            "07": {
+                "mean": 261.4323529411765,
+                "std": 0.5129044104470689
+            },
+            "08": {
+                "mean": null,
+                "std": null
+            },
+            "09": {
+                "mean": null,
+                "std": null
+            },
+            "10": {
+                "mean": null,
+                "std": null
+            },
+            "11": {
+                "mean": null,
+                "std": null
+            },
+            "12": {
+                "mean": null,
+                "std": null
+            },
+            "13": {
+                "mean": null,
+                "std": null
+            },
+            "14": {
+                "mean": null,
+                "std": null
+            },
+            "15": {
+                "mean": null,
+                "std": null
+            },
+            "16": {
+                "mean": null,
+                "std": null
+            },
+            "17": {
+                "mean": null,
+                "std": null
+            },
+            "18": {
+                "mean": null,
+                "std": null
+            },
+            "19": {
+                "mean": null,
+                "std": null
+            }
+        },
+        "pulse": {
+            "01": {
+                "mean": 1050.0483042137719,
+                "std": 0.9128125909855713
+            },
+            "02": {
+                "mean": null,
+                "std": null
+            },
+            "03": {
+                "mean": null,
+                "std": null
+            },
+            "04": {
+                "mean": null,
+                "std": null
+            },
+            "05": {
+                "mean": null,
+                "std": null
+            },
+            "06": {
+                "mean": null,
+                "std": null
+            },
+            "07": {
+                "mean": 1020.5,
+                "std": 0.5
+            },
+            "08": {
+                "mean": null,
+                "std": null
+            },
+            "09": {
+                "mean": null,
+                "std": null
+            },
+            "10": {
+                "mean": null,
+                "std": null
+            },
+            "11": {
+                "mean": null,
+                "std": null
+            },
+            "12": {
+                "mean": null,
+                "std": null
+            },
+            "13": {
+                "mean": null,
+                "std": null
+            },
+            "14": {
+                "mean": null,
+                "std": null
+            },
+            "15": {
+                "mean": null,
+                "std": null
+            },
+            "16": {
+                "mean": null,
+                "std": null
+            },
+            "17": {
+                "mean": null,
+                "std": null
+            },
+            "18": {
+                "mean": null,
+                "std": null
+            },
+            "19": {
+                "mean": null,
+                "std": null
+            }
+        }
+    }
+}
