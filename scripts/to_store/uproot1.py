@@ -25,15 +25,25 @@ def printDebug(x):
     if DEBUG:
         print(x)
 
-# ==== INTERVALLI DI INTERESSE ==== 
+# ==== CONFIGURAZIONE ==== 
 intervals = {
     "pedestal": [200,400],
     "pulse": [800,1100]
 }
 fixed_range = args.fixed_range
 
+config = {
+    "config": {
+        "pedestal_range": intervals["pedestal"],
+        "pulse_range": intervals["pulse"],
+        "fixed_range": fixed_range
+    }
+}
+
 # ==== DIRECTORY DEI FILE DA ANALIZZARE ====
 input_dir = "mpmt-board-cli_fileROOT"
+
+ALL_RESULTS = {}
 
 for file in os.listdir(input_dir):
     input_file_path = os.path.join(input_dir, file)
@@ -44,10 +54,13 @@ for file in os.listdir(input_dir):
     # Directory dove salvare tutti i file
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, file_to_analyze)
+    output_plot_dir = os.path.join(output_dir, "plots")
     os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(output_plot_dir, exist_ok=True)
 
-    # ==== PER JSON ====
+    # ==== PER JSON SINGOLI ====
     results = {
+        **config,
         file_to_analyze: {
             key: {} for key in intervals.keys()
         }
@@ -75,10 +88,7 @@ for file in os.listdir(input_dir):
             df_ch = df.loc[(df.ch == ch_id) & (min_adc < df.adc) & (df.adc < max_adc)] 
             # Se non ci sono dati
             if df_ch.empty:
-                results[file_to_analyze][keys][f"{ch_id:02d}"] = {
-                    "mean": None,
-                    "std": None
-                }
+                results[file_to_analyze][keys][f"{ch_id:02d}"] = None
 
                 # --- Istogramma vuoto ---
                 plt.figure(figsize=(10,6))
@@ -89,7 +99,7 @@ for file in os.listdir(input_dir):
                 plt.grid(True, alpha = 0.3)
                 plt.savefig(
                     os.path.join(
-                        output_dir,
+                        output_plot_dir,
                         f'{keys} - Histogram ADC Ch{ch_id:02d} - {file_to_analyze}.png'
                     )
                 )
@@ -98,10 +108,12 @@ for file in os.listdir(input_dir):
 
             df_ch_mean = df_ch.adc.mean()
             df_ch_std = df_ch.adc.std(ddof = 0)
+            df_ch_point = len(df_ch.adc)
 
             results[file_to_analyze][keys][f"{ch_id:02d}"] = {
                 "mean": df_ch_mean,
-                "std": df_ch_std
+                "std": df_ch_std,
+                "n_points": df_ch_point
             }
 
             if fixed_range:
@@ -115,10 +127,11 @@ for file in os.listdir(input_dir):
             plt.title(f'Histogram ADC Ch{ch_id:02d} - {keys} (Mean: {df_ch_mean:.2f} - Std Dev: {df_ch_std:.2f}) - {file_to_analyze}')
             plt.xlabel('ADC')
             plt.ylabel('Counts')
+            plt.xticks(bins)
             plt.grid(True, alpha = 0.3)
             plt.savefig(
                 os.path.join(
-                    output_dir,
+                    output_plot_dir,
                     f'{keys} - Histogram ADC Ch{ch_id:02d} - {file_to_analyze}.png'
                 )
             )
@@ -127,6 +140,10 @@ for file in os.listdir(input_dir):
     with open(os.path.join(output_dir, f"{output_file_name}_stats.json"), "w") as f_json:
         json.dump(results, f_json, indent=4)
 
+    ALL_RESULTS.update(results)
+
+with open("ALL_RESULTS.json", "w") as f_all:
+    json.dump(ALL_RESULTS, f_all, indent=4)
 
 
 
