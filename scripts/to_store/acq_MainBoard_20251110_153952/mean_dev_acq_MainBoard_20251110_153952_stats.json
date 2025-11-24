@@ -7,8 +7,7 @@
         "pulse_range": [
             800,
             1100
-        ],
-        "fixed_range": false
+        ]
     },
     "acq_MainBoard_20251110_153952": {
         "pedestal": {
