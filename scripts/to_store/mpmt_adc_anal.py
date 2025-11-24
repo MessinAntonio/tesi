@@ -12,17 +12,17 @@ parser = argparse.ArgumentParser(description = "Analisi ADC schede")
 parser.add_argument(
     "-x", "--fixed_range_x",
     action="store_true",
-    help = "Se non selezionato, "
+    help = "Se selezionato, l'asse X degli istogrammi avrà un range fisso basato sull'intervallo definito (pedestal/pulse)."
 )
 parser.add_argument(
     "-y", "--fixed_range_y",
     action="store_true",
-    help = "Se non selezionato, "
+    help = "Se selezionato, l'asse Y degli istogrammi avrà un range fisso basato sul valore di frequenza massimo registrato."
 )
 parser.add_argument(
     "-d", "--DEBUG", 
     action="store_true",
-    help = "Se non selezionato, "
+    help = "Se selezionato, stampa informazioni di debug durante l'esecuzione. "
 )
 args = parser.parse_args()
 
