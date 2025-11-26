@@ -8,7 +8,7 @@
             800,
             1100
         ],
-        "time": "20251126_164721"
+        "time": "20251126_181155"
     },
     "acq_MainBoard_20251120_165249": {
         "pedestal": {
@@ -86,29 +86,44 @@
                 }
             },
             "02": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "03": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "04": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "05": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "06": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "07": {
                 "stats": {
@@ -123,64 +138,100 @@
                 }
             },
             "08": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "09": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "10": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "11": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "12": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "13": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "14": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "15": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "16": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "17": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "18": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "19": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             }
         },
         "pulse": {
@@ -202,29 +253,44 @@
                 }
             },
             "02": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "03": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "04": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "05": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "06": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "07": {
                 "stats": {
@@ -238,64 +304,100 @@
                 }
             },
             "08": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "09": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "10": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "11": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "12": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "13": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "14": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "15": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "16": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "17": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "18": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "19": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             }
         }
     }

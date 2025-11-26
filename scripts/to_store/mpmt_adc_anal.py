@@ -48,14 +48,10 @@ def compute_stats(series):
         "n_points": int(len(series))
     }
 
-EMPTY_SUMMARY = {
-    "summary": None
-}
-
 # ==== RIEPILOGO ====
 def compute_summary(series):
     if series.empty:
-        return EMPTY_SUMMARY.copy()
+        return None
     return series.value_counts().sort_index().to_dict()
 
 # ==== CONFIGURAZIONE ==== 
@@ -152,7 +148,10 @@ for file in os.listdir(input_dir):
 
             # Se non ci sono dati
             if df_ch.empty:
-                results[file_to_analyze][keys][f"{ch_id:02d}"] = stats
+                results[file_to_analyze][keys][f"{ch_id:02d}"] = {
+                    "stats": stats,
+                    "summary": summary 
+                }
 
                 # subplot
                 ax.set_title(f"Ch{ch_id:02d} (EMPTY)")
@@ -233,3 +232,4 @@ with open("ALL_RESULTS.json", "w") as f_all:
 
 
 # Aggiungere un sommario per ogni file analizzato in cui inseriamo quanti canali hanno dati dati e quanti vuoti
+# Sistemare le cifre significative di media e varianza. Serve per step successivo

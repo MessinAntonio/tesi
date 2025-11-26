@@ -8,7 +8,7 @@
             800,
             1100
         ],
-        "time": "20251126_164639"
+        "time": "20251126_181132"
     },
     "acq_MainBoard_20251120_140503": {
         "pedestal": {
@@ -1092,9 +1092,12 @@
                 }
             },
             "13": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "14": {
                 "stats": {
@@ -1151,9 +1154,12 @@
                 }
             },
             "17": {
-                "mean": null,
-                "std": null,
-                "n_points": null
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "n_points": null
+                },
+                "summary": null
             },
             "18": {
                 "stats": {
