@@ -4,8 +4,7 @@ import pandas as pd
 import argparse
 import os
 import json
-
-pd.set_option('display.max_rows', None)
+import time
 
 # ==== PARSING ARGOMENTI DA LINEA DI COMANDO ====
 parser = argparse.ArgumentParser(description = "Analisi ADC schede")
@@ -32,6 +31,33 @@ def printDebug(x):
     if DEBUG:
         print(x)
 
+# ========== PER SALVATAGGIO STATISTICHE IN JSON ==========
+EMPTY_STATS = {
+    "mean": None,
+    "std": None,
+    "n_points": None
+}
+
+# ==== STATISTICHE ==== 
+def compute_stats(series):
+    if series.empty:
+        return EMPTY_STATS.copy()
+    return {
+        "mean": float(series.mean()),
+        "std": float(series.std(ddof=0)),
+        "n_points": int(len(series))
+    }
+
+EMPTY_SUMMARY = {
+    "summary": None
+}
+
+# ==== RIEPILOGO ====
+def compute_summary(series):
+    if series.empty:
+        return EMPTY_SUMMARY.copy()
+    return series.value_counts().sort_index().to_dict()
+
 # ==== CONFIGURAZIONE ==== 
 intervals = {
     "pedestal": [200,400],
@@ -42,29 +68,43 @@ fixed_range_x = args.fixed_range_x
 fixed_range_y = args.fixed_range_y
 dpi = 200
 
-config = {
-    "config": {
-        "pedestal_range": intervals["pedestal"],
-        "pulse_range": intervals["pulse"]
-    }
-}
-
-# ==== DIRECTORY DEI FILE DA ANALIZZARE ====
+# ==== DIRECTORY DEI FILE DI INPUT E OUTPUT ====
 input_dir = "mpmt-board-cli_fileROOT"
+output_dir = f"{input_dir}_analyzed"
+os.makedirs(output_dir, exist_ok=True)
 
-ALL_RESULTS = {}
+# Carica il JSON finale se esiste già
+all_results_file = "ALL_RESULTS.json"
+if os.path.exists(all_results_file):
+    with open(all_results_file, "r") as f:
+        ALL_RESULTS = json.load(f)
+else:
+    ALL_RESULTS = {}
 
 for file in os.listdir(input_dir):
     input_file_path = os.path.join(input_dir, file)
     file_to_analyze = os.path.splitext(os.path.basename(input_file_path))[0] # Prendiamo il nome del file senza estensione.
     output_file_name = f"mean_dev_{file_to_analyze}"
     printDebug(f"info: Analisi file '{os.path.basename(input_file_path)}'")
+    
+    config = {
+        "configure": {
+            "pedestal_range": intervals["pedestal"],
+            "pulse_range": intervals["pulse"],
+            "time": time.strftime("%Y%m%d_%H%M%S", time.localtime())
+        }
+    }
 
     # Directory dove salvare tutti i file
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.join(script_dir, file_to_analyze)
-    output_plot_dir = os.path.join(output_dir, "plots")
-    os.makedirs(output_dir, exist_ok=True)
+    output_sub_dir = os.path.join(output_dir, file_to_analyze)
+
+    # Se già presente nel JSON e cartella, saltare analisi
+    if os.path.exists(output_sub_dir) and file_to_analyze in ALL_RESULTS:
+        printDebug(f"File '{file_to_analyze}' già analizzato, passo al prossimo.")
+        continue
+
+    output_plot_dir = os.path.join(output_sub_dir, "plots")
+    os.makedirs(output_sub_dir, exist_ok=True)
     os.makedirs(output_plot_dir, exist_ok=True)
 
     # ==== PER JSON SINGOLI ====
@@ -86,7 +126,7 @@ for file in os.listdir(input_dir):
         "ch": ch,
         "adc": adc
     })
-    df.to_csv(os.path.join(output_dir, f"{file_to_analyze}.csv"), index=False)
+    df.to_csv(os.path.join(output_sub_dir, f"{file_to_analyze}.csv"), index=False)
 
     channels = range(1,20)
     for keys, values in intervals.items():
@@ -107,9 +147,12 @@ for file in os.listdir(input_dir):
             df_ch = df.loc[(df.ch == ch_id) & (min_adc < df.adc) & (df.adc < max_adc)] 
             ax = axes[idx]
 
+            stats = compute_stats(df_ch.adc)
+            summary = compute_summary(df_ch.adc)
+
             # Se non ci sono dati
             if df_ch.empty:
-                results[file_to_analyze][keys][f"{ch_id:02d}"] = None
+                results[file_to_analyze][keys][f"{ch_id:02d}"] = stats
 
                 # subplot
                 ax.set_title(f"Ch{ch_id:02d} (EMPTY)")
@@ -131,14 +174,9 @@ for file in os.listdir(input_dir):
                 plt.close()
                 continue
 
-            df_ch_mean = df_ch.adc.mean()
-            df_ch_std = df_ch.adc.std(ddof = 0)
-            df_ch_point = len(df_ch.adc)
-
             results[file_to_analyze][keys][f"{ch_id:02d}"] = {
-                "mean": df_ch_mean,
-                "std": df_ch_std,
-                "n_points": df_ch_point
+                "stats": stats,
+                "summary": summary 
             }
 
             if fixed_range_x:
@@ -147,6 +185,9 @@ for file in os.listdir(input_dir):
                 hist_min = df_ch['adc'].min()
                 hist_max = df_ch['adc'].max() + 2
                 bins = range(hist_min, hist_max)
+
+            df_ch_mean = stats.get("mean")
+            df_ch_std = stats.get("std")
 
             ax.hist(df_ch['adc'], bins, edgecolor='black', align='left')
             ax.set_title(fr"Ch{ch_id:02d} ($\mu$ = {df_ch_mean:.2f})")
@@ -169,7 +210,7 @@ for file in os.listdir(input_dir):
             )
             plt.close()
 
-        fig.suptitle(f"ADC histograms per '{keys}' — {file_to_analyze}", y=0.98)
+        fig.suptitle(f"Histogram ADC BOARD '{keys}' — {file_to_analyze}", y=0.98)
         plt.tight_layout(rect=[0, 0, 1, 0.96])
         plt.savefig(os.path.join(output_plot_dir,
                                  f'{keys} - Histogram ALL CHANNELS - {file_to_analyze}.png'),
@@ -178,11 +219,17 @@ for file in os.listdir(input_dir):
         plt.close()
 
     print(f"Creazione .json per analisi file '{os.path.basename(input_file_path)}'")
-    with open(os.path.join(output_dir, f"{output_file_name}_stats.json"), "w") as f_json:
+    with open(os.path.join(output_sub_dir, f"{output_file_name}_stats.json"), "w") as f_json:
         json.dump(results, f_json, indent=4)
  
-    ALL_RESULTS.update(results)
+    ALL_RESULTS[file_to_analyze] = {
+        "configure": config["configure"],
+        **results[file_to_analyze]
+    }
 
 print("Creazione .json finale")
 with open("ALL_RESULTS.json", "w") as f_all:
     json.dump(ALL_RESULTS, f_all, indent=4)
+
+
+# Aggiungere un sommario per ogni file analizzato in cui inseriamo quanti canali hanno dati dati e quanti vuoti
