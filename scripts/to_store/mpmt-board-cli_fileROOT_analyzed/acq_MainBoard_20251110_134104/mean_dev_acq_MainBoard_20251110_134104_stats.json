@@ -8,7 +8,7 @@
             800,
             1100
         ],
-        "time": "20251126_181111"
+        "time": "20251127_164950"
     },
     "acq_MainBoard_20251110_134104": {
         "pedestal": {
@@ -16,6 +16,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -24,6 +26,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -32,6 +36,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -40,6 +46,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -48,6 +56,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -56,6 +66,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -64,6 +76,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -72,6 +86,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -80,6 +96,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -88,6 +106,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -96,6 +116,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -104,6 +126,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -112,6 +136,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -120,6 +146,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -128,6 +156,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -136,14 +166,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "17": {
                 "stats": {
-                    "mean": 259.1239162424435,
-                    "std": 0.40690615676184827,
+                    "mean": 259.124,
+                    "std": 0.4,
+                    "err_mean": 0.001,
+                    "err_std": 0,
                     "n_points": 100576
                 },
                 "summary": {
@@ -160,6 +194,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -168,6 +204,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -176,8 +214,10 @@
         "pulse": {
             "01": {
                 "stats": {
-                    "mean": 1043.2743902439024,
-                    "std": 0.6406889664843132,
+                    "mean": 1043.27,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -190,8 +230,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 1027.4044715447155,
-                    "std": 0.6725001323807196,
+                    "mean": 1027.4,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -207,14 +249,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "04": {
                 "stats": {
-                    "mean": 1033.959349593496,
-                    "std": 0.6330770639039912,
+                    "mean": 1033.96,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -228,8 +274,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 1077.270325203252,
-                    "std": 0.6132791178221104,
+                    "mean": 1077.27,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -242,8 +290,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 1000.1077235772358,
-                    "std": 0.6235400027043728,
+                    "mean": 1000.11,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -256,8 +306,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 1004.3475609756098,
-                    "std": 0.6771038774930486,
+                    "mean": 1004.35,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -270,8 +322,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 1047.8434959349593,
-                    "std": 0.6229832290214657,
+                    "mean": 1047.84,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -284,8 +338,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 969.6524390243902,
-                    "std": 0.6432372919550372,
+                    "mean": 969.65,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -298,8 +354,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 959.1219512195122,
-                    "std": 0.6965112346972504,
+                    "mean": 959.12,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -315,8 +373,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 994.3556910569106,
-                    "std": 0.5644517900169637,
+                    "mean": 994.36,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -328,8 +388,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 1021.2357723577236,
-                    "std": 0.6257522408095563,
+                    "mean": 1021.24,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -343,8 +405,10 @@
             },
             "13": {
                 "stats": {
-                    "mean": 977.4715447154472,
-                    "std": 0.6256730132786967,
+                    "mean": 977.47,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -357,8 +421,10 @@
             },
             "14": {
                 "stats": {
-                    "mean": 1048.9268292682927,
-                    "std": 0.6585365853658536,
+                    "mean": 1048.93,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -373,8 +439,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 1007.4012219959267,
-                    "std": 0.5778661266159404,
+                    "mean": 1007.4,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -387,8 +455,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 1025.4419551934827,
-                    "std": 0.6005695243626592,
+                    "mean": 1025.44,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -403,14 +473,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "18": {
                 "stats": {
-                    "mean": 982.6985743380856,
-                    "std": 0.5976685899857205,
+                    "mean": 982.7,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -423,8 +497,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 1013.847250509165,
-                    "std": 0.5592105800918882,
+                    "mean": 1013.85,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {

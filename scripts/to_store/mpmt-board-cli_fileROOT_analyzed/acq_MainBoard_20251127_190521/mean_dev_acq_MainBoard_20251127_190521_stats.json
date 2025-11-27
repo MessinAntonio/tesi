@@ -1,0 +1,622 @@
+{
+    "configure": {
+        "pedestal_range": [
+            200,
+            400
+        ],
+        "pulse_range": [
+            800,
+            1100
+        ],
+        "time": "20251127_190710"
+    },
+    "acq_MainBoard_20251127_190521": {
+        "pedestal": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 263.90254730713247,
+                    "std": 9.792808034502785,
+                    "err_mean": 0.04177186629412195,
+                    "err_std": 0,
+                    "n_points": 54960
+                },
+                "summary": {
+                    "255": 3,
+                    "256": 749,
+                    "257": 396,
+                    "258": 139,
+                    "259": 1110,
+                    "260": 5330,
+                    "261": 11698,
+                    "262": 8370,
+                    "263": 8506,
+                    "264": 9963,
+                    "265": 4069,
+                    "266": 600,
+                    "267": 301,
+                    "268": 644,
+                    "269": 867,
+                    "270": 566,
+                    "271": 339,
+                    "272": 124,
+                    "273": 9,
+                    "274": 5,
+                    "275": 4,
+                    "276": 3,
+                    "277": 3,
+                    "278": 14,
+                    "279": 15,
+                    "280": 57,
+                    "281": 30,
+                    "282": 7,
+                    "283": 3,
+                    "284": 2,
+                    "285": 2,
+                    "286": 6,
+                    "287": 5,
+                    "288": 2,
+                    "289": 3,
+                    "290": 2,
+                    "291": 3,
+                    "292": 2,
+                    "293": 4,
+                    "294": 4,
+                    "295": 1,
+                    "296": 2,
+                    "297": 3,
+                    "298": 5,
+                    "299": 3,
+                    "300": 7,
+                    "301": 6,
+                    "303": 4,
+                    "304": 5,
+                    "305": 4,
+                    "306": 7,
+                    "307": 6,
+                    "308": 10,
+                    "309": 8,
+                    "310": 2,
+                    "312": 6,
+                    "313": 2,
+                    "314": 5,
+                    "315": 5,
+                    "316": 6,
+                    "317": 3,
+                    "318": 4,
+                    "319": 1,
+                    "320": 11,
+                    "321": 3,
+                    "322": 6,
+                    "323": 12,
+                    "324": 7,
+                    "325": 11,
+                    "326": 9,
+                    "327": 8,
+                    "328": 13,
+                    "329": 25,
+                    "330": 43,
+                    "331": 42,
+                    "332": 51,
+                    "333": 68,
+                    "334": 51,
+                    "335": 71,
+                    "336": 62,
+                    "337": 69,
+                    "338": 63,
+                    "339": 61,
+                    "340": 83,
+                    "341": 64,
+                    "342": 38,
+                    "343": 16,
+                    "344": 4,
+                    "345": 1,
+                    "370": 1,
+                    "378": 1,
+                    "385": 1,
+                    "386": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        },
+        "pulse": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 833.6760760760761,
+                    "std": 29.858939125713658,
+                    "err_mean": 0.42248045976292947,
+                    "err_std": 0,
+                    "n_points": 4995
+                },
+                "summary": {
+                    "801": 100,
+                    "802": 127,
+                    "803": 127,
+                    "804": 133,
+                    "805": 118,
+                    "806": 142,
+                    "807": 109,
+                    "808": 111,
+                    "809": 107,
+                    "810": 121,
+                    "811": 97,
+                    "812": 117,
+                    "813": 95,
+                    "814": 115,
+                    "815": 93,
+                    "816": 91,
+                    "817": 111,
+                    "818": 82,
+                    "819": 83,
+                    "820": 90,
+                    "821": 88,
+                    "822": 78,
+                    "823": 85,
+                    "824": 78,
+                    "825": 56,
+                    "826": 68,
+                    "827": 64,
+                    "828": 49,
+                    "829": 65,
+                    "830": 66,
+                    "831": 60,
+                    "832": 54,
+                    "833": 66,
+                    "834": 74,
+                    "835": 54,
+                    "836": 64,
+                    "837": 51,
+                    "838": 48,
+                    "839": 60,
+                    "840": 62,
+                    "841": 45,
+                    "842": 55,
+                    "843": 36,
+                    "844": 41,
+                    "845": 39,
+                    "846": 34,
+                    "847": 40,
+                    "848": 40,
+                    "849": 44,
+                    "850": 32,
+                    "851": 45,
+                    "852": 27,
+                    "853": 36,
+                    "854": 28,
+                    "855": 28,
+                    "856": 34,
+                    "857": 30,
+                    "858": 26,
+                    "859": 29,
+                    "860": 36,
+                    "861": 14,
+                    "862": 26,
+                    "863": 19,
+                    "864": 19,
+                    "865": 16,
+                    "866": 14,
+                    "867": 15,
+                    "868": 12,
+                    "869": 18,
+                    "870": 12,
+                    "871": 18,
+                    "872": 13,
+                    "873": 13,
+                    "874": 15,
+                    "875": 11,
+                    "876": 8,
+                    "877": 13,
+                    "878": 7,
+                    "879": 7,
+                    "880": 11,
+                    "881": 8,
+                    "882": 4,
+                    "883": 7,
+                    "884": 11,
+                    "885": 7,
+                    "886": 5,
+                    "887": 10,
+                    "888": 7,
+                    "889": 5,
+                    "890": 9,
+                    "891": 7,
+                    "892": 16,
+                    "893": 13,
+                    "894": 12,
+                    "895": 28,
+                    "896": 41,
+                    "897": 77,
+                    "898": 88,
+                    "899": 75,
+                    "900": 56,
+                    "901": 10,
+                    "902": 1,
+                    "903": 4,
+                    "905": 3,
+                    "906": 1,
+                    "908": 1,
+                    "909": 1,
+                    "910": 1,
+                    "917": 1,
+                    "937": 1,
+                    "950": 1,
+                    "961": 1,
+                    "965": 2,
+                    "966": 1,
+                    "971": 1,
+                    "972": 1,
+                    "973": 1,
+                    "979": 1,
+                    "983": 1,
+                    "985": 1,
+                    "987": 2,
+                    "989": 1,
+                    "990": 1,
+                    "1005": 1,
+                    "1010": 1,
+                    "1048": 1,
+                    "1075": 1,
+                    "1081": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        }
+    }
+}

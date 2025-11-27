@@ -9,13 +9,15 @@
                 800,
                 1100
             ],
-            "time": "20251126_181111"
+            "time": "20251127_164950"
         },
         "pedestal": {
             "01": {
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -24,6 +26,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -32,6 +36,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -40,6 +46,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -48,6 +56,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -56,6 +66,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -64,6 +76,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -72,6 +86,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -80,6 +96,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -88,6 +106,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -96,6 +116,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -104,6 +126,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -112,6 +136,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -120,6 +146,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -128,6 +156,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -136,14 +166,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "17": {
                 "stats": {
-                    "mean": 259.1239162424435,
-                    "std": 0.40690615676184827,
+                    "mean": 259.124,
+                    "std": 0.4,
+                    "err_mean": 0.001,
+                    "err_std": 0,
                     "n_points": 100576
                 },
                 "summary": {
@@ -160,6 +194,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -168,6 +204,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -176,8 +214,10 @@
         "pulse": {
             "01": {
                 "stats": {
-                    "mean": 1043.2743902439024,
-                    "std": 0.6406889664843132,
+                    "mean": 1043.27,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -190,8 +230,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 1027.4044715447155,
-                    "std": 0.6725001323807196,
+                    "mean": 1027.4,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -207,14 +249,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "04": {
                 "stats": {
-                    "mean": 1033.959349593496,
-                    "std": 0.6330770639039912,
+                    "mean": 1033.96,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -228,8 +274,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 1077.270325203252,
-                    "std": 0.6132791178221104,
+                    "mean": 1077.27,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -242,8 +290,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 1000.1077235772358,
-                    "std": 0.6235400027043728,
+                    "mean": 1000.11,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -256,8 +306,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 1004.3475609756098,
-                    "std": 0.6771038774930486,
+                    "mean": 1004.35,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -270,8 +322,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 1047.8434959349593,
-                    "std": 0.6229832290214657,
+                    "mean": 1047.84,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -284,8 +338,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 969.6524390243902,
-                    "std": 0.6432372919550372,
+                    "mean": 969.65,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -298,8 +354,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 959.1219512195122,
-                    "std": 0.6965112346972504,
+                    "mean": 959.12,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -315,8 +373,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 994.3556910569106,
-                    "std": 0.5644517900169637,
+                    "mean": 994.36,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -328,8 +388,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 1021.2357723577236,
-                    "std": 0.6257522408095563,
+                    "mean": 1021.24,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -343,8 +405,10 @@
             },
             "13": {
                 "stats": {
-                    "mean": 977.4715447154472,
-                    "std": 0.6256730132786967,
+                    "mean": 977.47,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -357,8 +421,10 @@
             },
             "14": {
                 "stats": {
-                    "mean": 1048.9268292682927,
-                    "std": 0.6585365853658536,
+                    "mean": 1048.93,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -373,8 +439,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 1007.4012219959267,
-                    "std": 0.5778661266159404,
+                    "mean": 1007.4,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -387,8 +455,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 1025.4419551934827,
-                    "std": 0.6005695243626592,
+                    "mean": 1025.44,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -403,14 +473,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "18": {
                 "stats": {
-                    "mean": 982.6985743380856,
-                    "std": 0.5976685899857205,
+                    "mean": 982.7,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -423,8 +497,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 1013.847250509165,
-                    "std": 0.5592105800918882,
+                    "mean": 1013.85,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -446,13 +522,15 @@
                 800,
                 1100
             ],
-            "time": "20251126_181122"
+            "time": "20251127_165002"
         },
         "pedestal": {
             "01": {
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -461,6 +539,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -469,6 +549,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -477,6 +559,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -485,6 +569,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -493,6 +579,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -501,6 +589,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -509,6 +599,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -517,6 +609,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -525,6 +619,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -533,6 +629,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -541,6 +639,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -549,6 +649,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -557,6 +659,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -565,6 +669,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -573,14 +679,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "17": {
                 "stats": {
-                    "mean": 259.12318603605445,
-                    "std": 0.40212506681868765,
+                    "mean": 259.123,
+                    "std": 0.4,
+                    "err_mean": 0.001,
+                    "err_std": 0,
                     "n_points": 97852
                 },
                 "summary": {
@@ -596,6 +706,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -604,6 +716,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -612,8 +726,10 @@
         "pulse": {
             "01": {
                 "stats": {
-                    "mean": 1048.7052845528456,
-                    "std": 0.6506192487427314,
+                    "mean": 1048.71,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -627,8 +743,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 1033.560975609756,
-                    "std": 0.6200752834363689,
+                    "mean": 1033.56,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -644,14 +762,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "04": {
                 "stats": {
-                    "mean": 1039.030487804878,
-                    "std": 0.6904438935760691,
+                    "mean": 1039.03,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -663,8 +785,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 1080.9227642276423,
-                    "std": 0.6099864063699376,
+                    "mean": 1080.92,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -677,8 +801,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 1000.0589430894308,
-                    "std": 0.6396306263966741,
+                    "mean": 1000.06,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -691,8 +817,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 1009.2134146341464,
-                    "std": 0.8147415463986835,
+                    "mean": 1009.21,
+                    "std": 0.8,
+                    "err_mean": 0.04,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -707,8 +835,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 1052.081300813008,
-                    "std": 0.5856480801122603,
+                    "mean": 1052.08,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -720,8 +850,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 973.329268292683,
-                    "std": 0.7334329245734095,
+                    "mean": 973.33,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -735,8 +867,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 962.1280487804878,
-                    "std": 0.6229567035766075,
+                    "mean": 962.13,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -750,8 +884,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 1003.5731707317074,
-                    "std": 0.60210648799295,
+                    "mean": 1003.57,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -765,8 +901,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 1023.099593495935,
-                    "std": 0.7545524688518221,
+                    "mean": 1023.1,
+                    "std": 0.8,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -779,7 +917,9 @@
             "13": {
                 "stats": {
                     "mean": 985.75,
-                    "std": 0.6019109136470941,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -791,8 +931,10 @@
             },
             "14": {
                 "stats": {
-                    "mean": 1052.3821138211383,
-                    "std": 0.6017633330437873,
+                    "mean": 1052.38,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 492
                 },
                 "summary": {
@@ -806,8 +948,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 1017.0285132382892,
-                    "std": 0.6748324294738319,
+                    "mean": 1017.03,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -821,8 +965,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 1028.0366598778005,
-                    "std": 0.729562157285701,
+                    "mean": 1028.04,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -839,14 +985,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "18": {
                 "stats": {
-                    "mean": 988.4908350305499,
-                    "std": 0.6612780898325727,
+                    "mean": 988.49,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -859,8 +1009,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 1013.2179226069246,
-                    "std": 0.6658413984884579,
+                    "mean": 1013.22,
+                    "std": 0.7,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 491
                 },
                 "summary": {
@@ -883,13 +1035,15 @@
                 800,
                 1100
             ],
-            "time": "20251126_181132"
+            "time": "20251127_165014"
         },
         "pedestal": {
             "01": {
                 "stats": {
-                    "mean": 264.3324446078882,
-                    "std": 0.8298623597163209,
+                    "mean": 264.332,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54385
                 },
                 "summary": {
@@ -930,8 +1084,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 263.2080820708928,
-                    "std": 0.8207591120173268,
+                    "mean": 263.208,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54392
                 },
                 "summary": {
@@ -973,8 +1129,10 @@
             },
             "03": {
                 "stats": {
-                    "mean": 259.9309718937352,
-                    "std": 4.433649164174593,
+                    "mean": 259.93,
+                    "std": 4.0,
+                    "err_mean": 0.02,
+                    "err_std": 0,
                     "n_points": 54543
                 },
                 "summary": {
@@ -1030,8 +1188,10 @@
             },
             "04": {
                 "stats": {
-                    "mean": 261.01400864050004,
-                    "std": 0.8397615581279025,
+                    "mean": 261.014,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54395
                 },
                 "summary": {
@@ -1082,8 +1242,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 256.19787108872305,
-                    "std": 0.6811281877836527,
+                    "mean": 256.198,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54394
                 },
                 "summary": {
@@ -1122,8 +1284,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 254.93413118611662,
-                    "std": 0.864984537783198,
+                    "mean": 254.934,
+                    "std": 0.9,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54396
                 },
                 "summary": {
@@ -1170,8 +1334,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 261.50221519569095,
-                    "std": 0.8930015420596906,
+                    "mean": 261.502,
+                    "std": 0.9,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54397
                 },
                 "summary": {
@@ -1220,8 +1386,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 253.639772789941,
-                    "std": 0.694800414889955,
+                    "mean": 253.64,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54399
                 },
                 "summary": {
@@ -1263,8 +1431,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 256.7993749425499,
-                    "std": 0.7068477678074887,
+                    "mean": 256.799,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54395
                 },
                 "summary": {
@@ -1307,8 +1477,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 254.42820635387557,
-                    "std": 0.8055966652912171,
+                    "mean": 254.428,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54392
                 },
                 "summary": {
@@ -1349,8 +1521,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 270.1320380140071,
-                    "std": 0.797997656651144,
+                    "mean": 270.132,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54401
                 },
                 "summary": {
@@ -1397,8 +1571,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 268.59564298189173,
-                    "std": 0.8650581098125626,
+                    "mean": 268.596,
+                    "std": 0.9,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54395
                 },
                 "summary": {
@@ -1438,8 +1614,10 @@
             },
             "13": {
                 "stats": {
-                    "mean": 253.6816577834957,
-                    "std": 0.47948148010283015,
+                    "mean": 253.682,
+                    "std": 0.5,
+                    "err_mean": 0.002,
+                    "err_std": 0,
                     "n_points": 54410
                 },
                 "summary": {
@@ -1454,8 +1632,10 @@
             },
             "14": {
                 "stats": {
-                    "mean": 259.0233113946391,
-                    "std": 0.8079380724754561,
+                    "mean": 259.023,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54394
                 },
                 "summary": {
@@ -1501,8 +1681,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 259.8863987351081,
-                    "std": 0.7903607602526379,
+                    "mean": 259.886,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54392
                 },
                 "summary": {
@@ -1550,8 +1732,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 254.90561806015148,
-                    "std": 0.7994713296652479,
+                    "mean": 254.906,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54396
                 },
                 "summary": {
@@ -1593,8 +1777,10 @@
             },
             "17": {
                 "stats": {
-                    "mean": 259.1319267033028,
-                    "std": 0.4223408327423514,
+                    "mean": 259.132,
+                    "std": 0.4,
+                    "err_mean": 0.002,
+                    "err_std": 0,
                     "n_points": 54409
                 },
                 "summary": {
@@ -1612,8 +1798,10 @@
             },
             "18": {
                 "stats": {
-                    "mean": 263.16738371024087,
-                    "std": 0.7579466690930985,
+                    "mean": 263.167,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
                     "n_points": 54390
                 },
                 "summary": {
@@ -1658,8 +1846,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 264.982883826963,
-                    "std": 0.8214024475389317,
+                    "mean": 264.983,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
                     "n_points": 54393
                 },
                 "summary": {
@@ -1706,8 +1896,10 @@
         "pulse": {
             "01": {
                 "stats": {
-                    "mean": 1049.1226053639846,
-                    "std": 2.590933668271187,
+                    "mean": 1049.1,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
                     "n_points": 261
                 },
                 "summary": {
@@ -1725,8 +1917,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 1039.8122605363985,
-                    "std": 2.483509417720462,
+                    "mean": 1039.8,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
                     "n_points": 261
                 },
                 "summary": {
@@ -1744,8 +1938,10 @@
             },
             "03": {
                 "stats": {
-                    "mean": 978.1746031746031,
-                    "std": 96.4846463125034,
+                    "mean": 980.0,
+                    "std": 100.0,
+                    "err_mean": 10.0,
+                    "err_std": 0,
                     "n_points": 63
                 },
                 "summary": {
@@ -1809,8 +2005,10 @@
             },
             "04": {
                 "stats": {
-                    "mean": 1039.295719844358,
-                    "std": 9.550913190358388,
+                    "mean": 1039.3,
+                    "std": 10.0,
+                    "err_mean": 0.6,
+                    "err_std": 0,
                     "n_points": 257
                 },
                 "summary": {
@@ -1829,8 +2027,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 1079.2681992337166,
-                    "std": 1.77166507567953,
+                    "mean": 1079.3,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
                     "n_points": 261
                 },
                 "summary": {
@@ -1846,8 +2046,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 998.2765151515151,
-                    "std": 2.585517937927755,
+                    "mean": 998.3,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
                     "n_points": 264
                 },
                 "summary": {
@@ -1864,8 +2066,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 1021.9961240310078,
-                    "std": 1.445383085443467,
+                    "mean": 1022.0,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
                     "n_points": 258
                 },
                 "summary": {
@@ -1880,8 +2084,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 1045.9455252918287,
-                    "std": 1.6040286757259001,
+                    "mean": 1045.9,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
                     "n_points": 257
                 },
                 "summary": {
@@ -1898,8 +2104,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 970.8778625954199,
-                    "std": 1.6111391861981346,
+                    "mean": 970.88,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
                     "n_points": 262
                 },
                 "summary": {
@@ -1915,8 +2123,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 955.6321839080459,
-                    "std": 2.324852943211063,
+                    "mean": 955.6,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
                     "n_points": 261
                 },
                 "summary": {
@@ -1933,8 +2143,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 1006.4427480916031,
-                    "std": 1.5291583542655163,
+                    "mean": 1006.44,
+                    "std": 2.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
                     "n_points": 262
                 },
                 "summary": {
@@ -1951,8 +2163,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 1029.1128404669262,
-                    "std": 1.405558208425725,
+                    "mean": 1029.11,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
                     "n_points": 257
                 },
                 "summary": {
@@ -1969,14 +2183,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "14": {
                 "stats": {
-                    "mean": 1052.8846153846155,
-                    "std": 2.5544369103569737,
+                    "mean": 1052.9,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
                     "n_points": 260
                 },
                 "summary": {
@@ -1993,8 +2211,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 1016.9618320610687,
-                    "std": 1.400134018409109,
+                    "mean": 1016.96,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
                     "n_points": 262
                 },
                 "summary": {
@@ -2012,8 +2232,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 1027.969111969112,
-                    "std": 2.458735035720584,
+                    "mean": 1028.0,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
                     "n_points": 259
                 },
                 "summary": {
@@ -2031,14 +2253,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "18": {
                 "stats": {
-                    "mean": 992.8884615384616,
-                    "std": 2.374354474714682,
+                    "mean": 992.9,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
                     "n_points": 260
                 },
                 "summary": {
@@ -2055,8 +2281,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 1023.5923076923077,
-                    "std": 1.4261090358904962,
+                    "mean": 1023.59,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
                     "n_points": 260
                 },
                 "summary": {
@@ -2083,13 +2311,15 @@
                 800,
                 1100
             ],
-            "time": "20251126_181155"
+            "time": "20251127_165033"
         },
         "pedestal": {
             "01": {
                 "stats": {
-                    "mean": 264.2383223010361,
-                    "std": 0.862920044323877,
+                    "mean": 264.238,
+                    "std": 0.9,
+                    "err_mean": 0.002,
+                    "err_std": 0,
                     "n_points": 202587
                 },
                 "summary": {
@@ -2163,6 +2393,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2171,6 +2403,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2179,6 +2413,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2187,6 +2423,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2195,14 +2433,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "07": {
                 "stats": {
-                    "mean": 261.4323529411765,
-                    "std": 0.5129044104470689,
+                    "mean": 261.43,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": 0,
                     "n_points": 680
                 },
                 "summary": {
@@ -2215,6 +2457,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2223,6 +2467,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2231,6 +2477,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2239,6 +2487,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2247,6 +2497,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2255,6 +2507,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2263,6 +2517,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2271,6 +2527,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2279,6 +2537,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2287,6 +2547,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2295,6 +2557,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2303,6 +2567,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2311,8 +2577,10 @@
         "pulse": {
             "01": {
                 "stats": {
-                    "mean": 1050.0483042137719,
-                    "std": 0.9128125909855713,
+                    "mean": 1050.05,
+                    "std": 0.9,
+                    "err_mean": 0.03,
+                    "err_std": 0,
                     "n_points": 973
                 },
                 "summary": {
@@ -2330,6 +2598,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2338,6 +2608,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2346,6 +2618,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2354,6 +2628,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2362,6 +2638,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2369,7 +2647,9 @@
             "07": {
                 "stats": {
                     "mean": 1020.5,
-                    "std": 0.5,
+                    "std": 0.6,
+                    "err_mean": 0.3,
+                    "err_std": 0,
                     "n_points": 4
                 },
                 "summary": {
@@ -2381,6 +2661,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2389,6 +2671,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2397,6 +2681,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2405,6 +2691,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2413,6 +2701,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2421,6 +2711,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2429,6 +2721,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2437,6 +2731,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2445,6 +2741,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2453,6 +2751,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2461,6 +2761,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2469,6 +2771,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2485,13 +2789,15 @@
                 800,
                 1100
             ],
-            "time": "20251126_181214"
+            "time": "20251127_165045"
         },
         "pedestal": {
             "01": {
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2500,14 +2806,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "03": {
                 "stats": {
-                    "mean": 262.4190304314279,
-                    "std": 4.849447772156882,
+                    "mean": 262.42,
+                    "std": 5.0,
+                    "err_mean": 0.02,
+                    "err_std": 0,
                     "n_points": 76467
                 },
                 "summary": {
@@ -2636,6 +2946,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2644,6 +2956,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2652,14 +2966,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "07": {
                 "stats": {
-                    "mean": 261.42591110823963,
-                    "std": 0.8414890259756447,
+                    "mean": 261.426,
+                    "std": 0.8,
+                    "err_mean": 0.002,
+                    "err_std": 0,
                     "n_points": 201211
                 },
                 "summary": {
@@ -2727,6 +3045,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2735,6 +3055,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2743,6 +3065,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2751,6 +3075,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2759,14 +3085,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "13": {
                 "stats": {
-                    "mean": 253.73519035828937,
-                    "std": 0.4599840024476922,
+                    "mean": 253.735,
+                    "std": 0.5,
+                    "err_mean": 0.001,
+                    "err_std": 0,
                     "n_points": 201541
                 },
                 "summary": {
@@ -2790,6 +3120,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2798,6 +3130,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2806,14 +3140,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "17": {
                 "stats": {
-                    "mean": 259.10327793901325,
-                    "std": 0.7645333092350155,
+                    "mean": 259.103,
+                    "std": 0.8,
+                    "err_mean": 0.002,
+                    "err_std": 0,
                     "n_points": 201224
                 },
                 "summary": {
@@ -2881,6 +3219,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2889,6 +3229,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2899,6 +3241,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -2907,14 +3251,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "03": {
                 "stats": {
-                    "mean": 847.8904552129221,
-                    "std": 55.39238787325257,
+                    "mean": 847.9,
+                    "std": 60.0,
+                    "err_mean": 0.9,
+                    "err_std": 0,
                     "n_points": 3405
                 },
                 "summary": {
@@ -3163,6 +3511,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3171,6 +3521,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3179,14 +3531,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "07": {
                 "stats": {
-                    "mean": 1010.8164094232332,
-                    "std": 2.3604011365242967,
+                    "mean": 1010.82,
+                    "std": 2.0,
+                    "err_mean": 0.07,
+                    "err_std": 0,
                     "n_points": 1231
                 },
                 "summary": {
@@ -3210,6 +3566,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3218,6 +3576,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3226,6 +3586,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3234,6 +3596,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3242,6 +3606,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3250,6 +3616,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3258,6 +3626,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3266,6 +3636,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3274,14 +3646,18 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
             },
             "17": {
                 "stats": {
-                    "mean": 990.4266994266994,
-                    "std": 2.2727041044779077,
+                    "mean": 990.43,
+                    "std": 2.0,
+                    "err_mean": 0.07,
+                    "err_std": 0,
                     "n_points": 1221
                 },
                 "summary": {
@@ -3304,6 +3680,8 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
@@ -3312,6 +3690,3511 @@
                 "stats": {
                     "mean": null,
                     "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        }
+    },
+    "acq_MainBoard_20251127_175303": {
+        "configure": {
+            "pedestal_range": [
+                200,
+                400
+            ],
+            "pulse_range": [
+                800,
+                1100
+            ],
+            "time": "20251127_175800"
+        },
+        "pedestal": {
+            "01": {
+                "stats": {
+                    "mean": 264.179,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54687
+                },
+                "summary": {
+                    "213": 2,
+                    "219": 1,
+                    "224": 2,
+                    "227": 1,
+                    "228": 1,
+                    "234": 1,
+                    "236": 1,
+                    "238": 1,
+                    "241": 1,
+                    "243": 1,
+                    "246": 2,
+                    "248": 1,
+                    "249": 1,
+                    "253": 2,
+                    "254": 1,
+                    "255": 2,
+                    "257": 2,
+                    "259": 2,
+                    "260": 2,
+                    "261": 2,
+                    "262": 3,
+                    "263": 474,
+                    "264": 43584,
+                    "265": 10535,
+                    "266": 20,
+                    "267": 10,
+                    "268": 4,
+                    "269": 6,
+                    "270": 2,
+                    "271": 2,
+                    "272": 1,
+                    "273": 6,
+                    "274": 1,
+                    "275": 4,
+                    "276": 1,
+                    "277": 2,
+                    "278": 2,
+                    "279": 1
+                }
+            },
+            "02": {
+                "stats": {
+                    "mean": 263.214,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
+                    "n_points": 54687
+                },
+                "summary": {
+                    "209": 1,
+                    "213": 1,
+                    "214": 1,
+                    "218": 1,
+                    "219": 1,
+                    "223": 1,
+                    "227": 1,
+                    "229": 1,
+                    "231": 1,
+                    "232": 1,
+                    "236": 1,
+                    "247": 1,
+                    "251": 1,
+                    "253": 1,
+                    "254": 1,
+                    "257": 2,
+                    "259": 1,
+                    "260": 1,
+                    "261": 2,
+                    "262": 1457,
+                    "263": 40019,
+                    "264": 13121,
+                    "265": 7,
+                    "266": 6,
+                    "267": 2,
+                    "268": 9,
+                    "269": 10,
+                    "270": 6,
+                    "272": 4,
+                    "273": 4,
+                    "275": 3,
+                    "276": 13,
+                    "277": 5
+                }
+            },
+            "03": {
+                "stats": {
+                    "mean": 261.08,
+                    "std": 5.0,
+                    "err_mean": 0.03,
+                    "err_std": 0,
+                    "n_points": 22086
+                },
+                "summary": {
+                    "214": 1,
+                    "218": 1,
+                    "221": 1,
+                    "225": 1,
+                    "229": 1,
+                    "232": 1,
+                    "239": 1,
+                    "252": 1,
+                    "254": 2,
+                    "255": 230,
+                    "256": 4880,
+                    "257": 1145,
+                    "258": 124,
+                    "259": 404,
+                    "260": 1628,
+                    "261": 3265,
+                    "262": 2010,
+                    "263": 2592,
+                    "264": 2750,
+                    "265": 1670,
+                    "266": 317,
+                    "267": 163,
+                    "268": 208,
+                    "269": 228,
+                    "270": 234,
+                    "271": 87,
+                    "272": 21,
+                    "273": 7,
+                    "274": 2,
+                    "276": 4,
+                    "277": 2,
+                    "278": 1,
+                    "279": 1,
+                    "280": 3,
+                    "281": 18,
+                    "282": 32,
+                    "283": 15,
+                    "286": 1,
+                    "292": 2,
+                    "293": 1,
+                    "298": 1,
+                    "305": 1,
+                    "306": 1,
+                    "309": 2,
+                    "310": 1,
+                    "314": 1,
+                    "320": 1,
+                    "321": 1,
+                    "326": 1,
+                    "327": 1,
+                    "333": 2,
+                    "334": 1,
+                    "336": 2,
+                    "337": 2,
+                    "339": 3,
+                    "340": 1,
+                    "341": 1,
+                    "345": 1,
+                    "349": 1,
+                    "364": 1,
+                    "368": 1,
+                    "369": 1,
+                    "380": 2,
+                    "381": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": 261.066,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54691
+                },
+                "summary": {
+                    "209": 1,
+                    "214": 1,
+                    "216": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "224": 1,
+                    "226": 1,
+                    "229": 2,
+                    "231": 1,
+                    "233": 1,
+                    "237": 1,
+                    "241": 1,
+                    "243": 1,
+                    "244": 1,
+                    "245": 2,
+                    "247": 1,
+                    "248": 1,
+                    "251": 1,
+                    "253": 1,
+                    "255": 3,
+                    "256": 3,
+                    "257": 2,
+                    "258": 1,
+                    "259": 4,
+                    "260": 2048,
+                    "261": 46588,
+                    "262": 5964,
+                    "263": 8,
+                    "264": 8,
+                    "265": 7,
+                    "266": 3,
+                    "268": 4,
+                    "269": 6,
+                    "270": 2,
+                    "271": 6,
+                    "272": 4,
+                    "273": 2,
+                    "274": 3,
+                    "275": 3
+                }
+            },
+            "05": {
+                "stats": {
+                    "mean": 256.285,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
+                    "n_points": 54683
+                },
+                "summary": {
+                    "204": 1,
+                    "206": 1,
+                    "210": 1,
+                    "211": 1,
+                    "213": 1,
+                    "214": 1,
+                    "216": 1,
+                    "220": 1,
+                    "221": 1,
+                    "224": 1,
+                    "226": 1,
+                    "228": 2,
+                    "237": 1,
+                    "242": 1,
+                    "243": 4,
+                    "244": 1,
+                    "246": 1,
+                    "247": 2,
+                    "248": 1,
+                    "250": 2,
+                    "253": 1,
+                    "254": 6,
+                    "255": 3,
+                    "256": 38714,
+                    "257": 15859,
+                    "258": 32,
+                    "259": 7,
+                    "260": 4,
+                    "261": 5,
+                    "262": 2,
+                    "263": 3,
+                    "264": 2,
+                    "265": 4,
+                    "266": 3,
+                    "267": 2,
+                    "268": 3,
+                    "269": 6,
+                    "270": 1
+                }
+            },
+            "06": {
+                "stats": {
+                    "mean": 254.86,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54677
+                },
+                "summary": {
+                    "217": 1,
+                    "219": 1,
+                    "220": 1,
+                    "225": 1,
+                    "234": 1,
+                    "236": 1,
+                    "238": 1,
+                    "240": 1,
+                    "241": 1,
+                    "245": 3,
+                    "246": 1,
+                    "248": 1,
+                    "249": 2,
+                    "250": 1,
+                    "251": 3,
+                    "252": 1,
+                    "253": 14,
+                    "254": 13391,
+                    "255": 35477,
+                    "256": 5730,
+                    "257": 5,
+                    "258": 5,
+                    "259": 2,
+                    "260": 2,
+                    "261": 2,
+                    "262": 3,
+                    "264": 3,
+                    "265": 5,
+                    "266": 4,
+                    "267": 4,
+                    "268": 8,
+                    "269": 1
+                }
+            },
+            "07": {
+                "stats": {
+                    "mean": 261.408,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54680
+                },
+                "summary": {
+                    "204": 1,
+                    "208": 1,
+                    "211": 1,
+                    "220": 1,
+                    "222": 1,
+                    "226": 2,
+                    "237": 1,
+                    "241": 1,
+                    "242": 1,
+                    "245": 1,
+                    "247": 2,
+                    "248": 1,
+                    "249": 1,
+                    "250": 1,
+                    "252": 2,
+                    "253": 1,
+                    "254": 1,
+                    "256": 1,
+                    "258": 5,
+                    "259": 3,
+                    "260": 569,
+                    "261": 31080,
+                    "262": 22897,
+                    "263": 63,
+                    "264": 5,
+                    "265": 5,
+                    "266": 3,
+                    "267": 4,
+                    "268": 4,
+                    "269": 2,
+                    "270": 1,
+                    "272": 3,
+                    "273": 4,
+                    "274": 4,
+                    "275": 7
+                }
+            },
+            "08": {
+                "stats": {
+                    "mean": 253.575,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54687
+                },
+                "summary": {
+                    "202": 1,
+                    "204": 1,
+                    "208": 1,
+                    "217": 1,
+                    "220": 1,
+                    "222": 1,
+                    "223": 2,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "230": 1,
+                    "232": 1,
+                    "234": 2,
+                    "235": 1,
+                    "236": 1,
+                    "239": 1,
+                    "241": 1,
+                    "244": 1,
+                    "245": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 5,
+                    "251": 3,
+                    "252": 51,
+                    "253": 23284,
+                    "254": 30853,
+                    "255": 411,
+                    "256": 15,
+                    "257": 7,
+                    "258": 2,
+                    "259": 3,
+                    "260": 3,
+                    "261": 9,
+                    "262": 1,
+                    "263": 3,
+                    "264": 2,
+                    "265": 5,
+                    "266": 3,
+                    "267": 4
+                }
+            },
+            "09": {
+                "stats": {
+                    "mean": 256.801,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54682
+                },
+                "summary": {
+                    "204": 1,
+                    "208": 1,
+                    "211": 1,
+                    "234": 1,
+                    "235": 1,
+                    "238": 2,
+                    "241": 3,
+                    "243": 1,
+                    "244": 1,
+                    "245": 1,
+                    "246": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 2,
+                    "251": 1,
+                    "252": 1,
+                    "253": 5,
+                    "254": 1,
+                    "255": 6,
+                    "256": 12112,
+                    "257": 41182,
+                    "258": 1306,
+                    "259": 9,
+                    "260": 6,
+                    "261": 5,
+                    "263": 3,
+                    "264": 5,
+                    "265": 1,
+                    "266": 2,
+                    "267": 3,
+                    "268": 6,
+                    "269": 2,
+                    "270": 7,
+                    "271": 1
+                }
+            },
+            "10": {
+                "stats": {
+                    "mean": 254.412,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54687
+                },
+                "summary": {
+                    "210": 2,
+                    "214": 1,
+                    "223": 1,
+                    "225": 1,
+                    "231": 1,
+                    "234": 1,
+                    "236": 2,
+                    "238": 2,
+                    "241": 1,
+                    "242": 1,
+                    "243": 2,
+                    "244": 1,
+                    "245": 2,
+                    "246": 1,
+                    "247": 1,
+                    "250": 1,
+                    "252": 2,
+                    "253": 158,
+                    "254": 32740,
+                    "255": 20687,
+                    "256": 1041,
+                    "257": 10,
+                    "258": 1,
+                    "259": 1,
+                    "260": 5,
+                    "261": 3,
+                    "262": 1,
+                    "263": 5,
+                    "265": 3,
+                    "266": 5,
+                    "267": 2,
+                    "268": 2
+                }
+            },
+            "11": {
+                "stats": {
+                    "mean": 270.176,
+                    "std": 0.8,
+                    "err_mean": 0.004,
+                    "err_std": 0,
+                    "n_points": 54685
+                },
+                "summary": {
+                    "202": 1,
+                    "204": 1,
+                    "215": 1,
+                    "218": 1,
+                    "220": 1,
+                    "223": 1,
+                    "233": 1,
+                    "234": 1,
+                    "236": 1,
+                    "242": 1,
+                    "246": 1,
+                    "256": 1,
+                    "257": 1,
+                    "258": 2,
+                    "261": 2,
+                    "263": 3,
+                    "265": 3,
+                    "267": 2,
+                    "268": 3,
+                    "269": 659,
+                    "270": 43497,
+                    "271": 10419,
+                    "272": 34,
+                    "273": 5,
+                    "274": 6,
+                    "275": 5,
+                    "276": 2,
+                    "277": 3,
+                    "278": 6,
+                    "279": 2,
+                    "280": 4,
+                    "281": 6,
+                    "282": 2,
+                    "283": 4,
+                    "284": 3
+                }
+            },
+            "12": {
+                "stats": {
+                    "mean": 268.805,
+                    "std": 0.9,
+                    "err_mean": 0.004,
+                    "err_std": 0,
+                    "n_points": 54688
+                },
+                "summary": {
+                    "203": 1,
+                    "205": 1,
+                    "219": 1,
+                    "221": 1,
+                    "223": 1,
+                    "224": 2,
+                    "225": 1,
+                    "233": 1,
+                    "234": 1,
+                    "239": 1,
+                    "245": 1,
+                    "246": 1,
+                    "249": 1,
+                    "254": 1,
+                    "258": 1,
+                    "259": 3,
+                    "261": 2,
+                    "262": 1,
+                    "263": 1,
+                    "264": 3,
+                    "266": 5,
+                    "267": 7,
+                    "268": 11016,
+                    "269": 42909,
+                    "270": 677,
+                    "271": 5,
+                    "272": 10,
+                    "273": 1,
+                    "274": 2,
+                    "275": 3,
+                    "276": 6,
+                    "277": 1,
+                    "278": 3,
+                    "279": 2,
+                    "280": 4,
+                    "281": 4,
+                    "282": 5,
+                    "283": 2
+                }
+            },
+            "13": {
+                "stats": {
+                    "mean": 251.803,
+                    "std": 0.4,
+                    "err_mean": 0.002,
+                    "err_std": 0,
+                    "n_points": 54701
+                },
+                "summary": {
+                    "250": 2,
+                    "251": 11558,
+                    "252": 42366,
+                    "253": 771,
+                    "254": 1,
+                    "256": 1,
+                    "257": 1,
+                    "258": 1
+                }
+            },
+            "14": {
+                "stats": {
+                    "mean": 258.96,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54687
+                },
+                "summary": {
+                    "211": 1,
+                    "218": 1,
+                    "221": 1,
+                    "224": 1,
+                    "226": 2,
+                    "228": 1,
+                    "231": 1,
+                    "239": 1,
+                    "242": 2,
+                    "243": 1,
+                    "245": 1,
+                    "246": 2,
+                    "247": 1,
+                    "249": 1,
+                    "251": 2,
+                    "253": 1,
+                    "254": 1,
+                    "255": 1,
+                    "257": 4,
+                    "258": 5197,
+                    "259": 46349,
+                    "260": 3065,
+                    "261": 5,
+                    "262": 7,
+                    "263": 3,
+                    "264": 2,
+                    "265": 6,
+                    "266": 2,
+                    "267": 3,
+                    "268": 4,
+                    "269": 3,
+                    "270": 4,
+                    "271": 3,
+                    "272": 5,
+                    "273": 3
+                }
+            },
+            "15": {
+                "stats": {
+                    "mean": 259.771,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54699
+                },
+                "summary": {
+                    "201": 1,
+                    "211": 2,
+                    "214": 1,
+                    "218": 1,
+                    "221": 1,
+                    "229": 1,
+                    "231": 1,
+                    "232": 1,
+                    "235": 1,
+                    "239": 2,
+                    "244": 1,
+                    "245": 2,
+                    "246": 2,
+                    "249": 3,
+                    "251": 3,
+                    "253": 2,
+                    "254": 2,
+                    "255": 4,
+                    "256": 1,
+                    "257": 3,
+                    "258": 8,
+                    "259": 12783,
+                    "260": 41294,
+                    "261": 527,
+                    "262": 5,
+                    "263": 5,
+                    "264": 5,
+                    "265": 5,
+                    "266": 4,
+                    "267": 1,
+                    "268": 4,
+                    "269": 5,
+                    "270": 2,
+                    "271": 6,
+                    "272": 4,
+                    "273": 5,
+                    "274": 1
+                }
+            },
+            "16": {
+                "stats": {
+                    "mean": 254.896,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54684
+                },
+                "summary": {
+                    "205": 1,
+                    "208": 1,
+                    "214": 1,
+                    "218": 1,
+                    "224": 1,
+                    "231": 1,
+                    "236": 1,
+                    "237": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "242": 1,
+                    "246": 1,
+                    "247": 1,
+                    "249": 3,
+                    "250": 2,
+                    "251": 2,
+                    "252": 2,
+                    "253": 12,
+                    "254": 12313,
+                    "255": 35609,
+                    "256": 6680,
+                    "257": 9,
+                    "258": 4,
+                    "259": 2,
+                    "260": 1,
+                    "261": 2,
+                    "262": 2,
+                    "263": 3,
+                    "264": 7,
+                    "265": 1,
+                    "266": 4,
+                    "267": 3,
+                    "268": 8,
+                    "269": 1
+                }
+            },
+            "17": {
+                "stats": {
+                    "mean": 259.191,
+                    "std": 0.8,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54689
+                },
+                "summary": {
+                    "204": 1,
+                    "210": 1,
+                    "216": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "225": 2,
+                    "229": 1,
+                    "230": 1,
+                    "232": 1,
+                    "237": 1,
+                    "241": 1,
+                    "242": 1,
+                    "245": 2,
+                    "246": 1,
+                    "248": 1,
+                    "249": 2,
+                    "250": 1,
+                    "251": 1,
+                    "252": 1,
+                    "255": 2,
+                    "256": 5,
+                    "257": 1,
+                    "258": 1233,
+                    "259": 41406,
+                    "260": 11963,
+                    "261": 11,
+                    "262": 4,
+                    "263": 4,
+                    "264": 5,
+                    "265": 3,
+                    "266": 1,
+                    "267": 7,
+                    "268": 3,
+                    "269": 8,
+                    "270": 4,
+                    "271": 5
+                }
+            },
+            "18": {
+                "stats": {
+                    "mean": 263.191,
+                    "std": 0.7,
+                    "err_mean": 0.003,
+                    "err_std": 0,
+                    "n_points": 54689
+                },
+                "summary": {
+                    "203": 1,
+                    "205": 1,
+                    "209": 1,
+                    "233": 1,
+                    "235": 2,
+                    "237": 1,
+                    "244": 1,
+                    "245": 1,
+                    "248": 1,
+                    "250": 1,
+                    "251": 2,
+                    "252": 1,
+                    "254": 2,
+                    "255": 2,
+                    "256": 1,
+                    "258": 3,
+                    "259": 2,
+                    "260": 5,
+                    "261": 2,
+                    "262": 1536,
+                    "263": 40972,
+                    "264": 12095,
+                    "265": 14,
+                    "266": 6,
+                    "267": 6,
+                    "268": 1,
+                    "269": 2,
+                    "270": 3,
+                    "271": 2,
+                    "272": 2,
+                    "273": 1,
+                    "274": 5,
+                    "275": 3,
+                    "276": 7,
+                    "277": 3
+                }
+            },
+            "19": {
+                "stats": {
+                    "mean": 264.967,
+                    "std": 1.0,
+                    "err_mean": 0.004,
+                    "err_std": 0,
+                    "n_points": 54688
+                },
+                "summary": {
+                    "205": 2,
+                    "206": 2,
+                    "212": 1,
+                    "213": 2,
+                    "214": 1,
+                    "219": 2,
+                    "222": 1,
+                    "223": 1,
+                    "228": 2,
+                    "236": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "245": 1,
+                    "247": 1,
+                    "248": 1,
+                    "251": 1,
+                    "252": 1,
+                    "253": 1,
+                    "254": 2,
+                    "255": 1,
+                    "258": 1,
+                    "259": 2,
+                    "260": 2,
+                    "261": 2,
+                    "262": 3,
+                    "263": 5,
+                    "264": 3930,
+                    "265": 47962,
+                    "266": 2696,
+                    "267": 8,
+                    "268": 6,
+                    "269": 5,
+                    "270": 3,
+                    "271": 4,
+                    "272": 7,
+                    "273": 3,
+                    "274": 2,
+                    "275": 2,
+                    "276": 4,
+                    "277": 2,
+                    "278": 6,
+                    "279": 6
+                }
+            }
+        },
+        "pulse": {
+            "01": {
+                "stats": {
+                    "mean": 1056.7,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 267
+                },
+                "summary": {
+                    "1054": 4,
+                    "1055": 63,
+                    "1056": 109,
+                    "1057": 27,
+                    "1058": 24,
+                    "1059": 23,
+                    "1060": 9,
+                    "1061": 2,
+                    "1062": 4,
+                    "1063": 1,
+                    "1090": 1
+                }
+            },
+            "02": {
+                "stats": {
+                    "mean": 1041.9,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 266
+                },
+                "summary": {
+                    "1040": 39,
+                    "1041": 122,
+                    "1042": 38,
+                    "1043": 19,
+                    "1044": 26,
+                    "1045": 12,
+                    "1046": 7,
+                    "1047": 2,
+                    "1077": 1
+                }
+            },
+            "03": {
+                "stats": {
+                    "mean": 850.9,
+                    "std": 40.0,
+                    "err_mean": 1.0,
+                    "err_std": 0,
+                    "n_points": 1946
+                },
+                "summary": {
+                    "801": 23,
+                    "802": 22,
+                    "803": 28,
+                    "804": 26,
+                    "805": 17,
+                    "806": 29,
+                    "807": 23,
+                    "808": 23,
+                    "809": 22,
+                    "810": 29,
+                    "811": 26,
+                    "812": 22,
+                    "813": 25,
+                    "814": 27,
+                    "815": 21,
+                    "816": 19,
+                    "817": 22,
+                    "818": 22,
+                    "819": 25,
+                    "820": 29,
+                    "821": 16,
+                    "822": 20,
+                    "823": 18,
+                    "824": 23,
+                    "825": 36,
+                    "826": 32,
+                    "827": 15,
+                    "828": 21,
+                    "829": 25,
+                    "830": 15,
+                    "831": 16,
+                    "832": 14,
+                    "833": 19,
+                    "834": 17,
+                    "835": 23,
+                    "836": 14,
+                    "837": 14,
+                    "838": 31,
+                    "839": 23,
+                    "840": 20,
+                    "841": 25,
+                    "842": 30,
+                    "843": 14,
+                    "844": 26,
+                    "845": 30,
+                    "846": 32,
+                    "847": 26,
+                    "848": 12,
+                    "849": 20,
+                    "850": 23,
+                    "851": 24,
+                    "852": 20,
+                    "853": 22,
+                    "854": 18,
+                    "855": 20,
+                    "856": 15,
+                    "857": 25,
+                    "858": 13,
+                    "859": 12,
+                    "860": 12,
+                    "861": 22,
+                    "862": 15,
+                    "863": 14,
+                    "864": 18,
+                    "865": 8,
+                    "866": 12,
+                    "867": 17,
+                    "868": 11,
+                    "869": 10,
+                    "870": 13,
+                    "871": 7,
+                    "872": 13,
+                    "873": 9,
+                    "874": 16,
+                    "875": 8,
+                    "876": 11,
+                    "877": 7,
+                    "878": 12,
+                    "879": 12,
+                    "880": 11,
+                    "881": 12,
+                    "882": 11,
+                    "883": 8,
+                    "884": 16,
+                    "885": 13,
+                    "886": 11,
+                    "887": 14,
+                    "888": 10,
+                    "889": 15,
+                    "890": 12,
+                    "891": 9,
+                    "892": 19,
+                    "893": 15,
+                    "894": 9,
+                    "895": 20,
+                    "896": 21,
+                    "897": 22,
+                    "898": 21,
+                    "899": 23,
+                    "900": 12,
+                    "901": 11,
+                    "902": 12,
+                    "903": 11,
+                    "904": 3,
+                    "905": 1,
+                    "911": 2,
+                    "923": 1,
+                    "939": 1,
+                    "941": 1,
+                    "952": 2,
+                    "953": 1,
+                    "963": 1,
+                    "972": 1,
+                    "976": 1,
+                    "977": 1,
+                    "982": 1,
+                    "992": 1,
+                    "993": 1,
+                    "995": 1,
+                    "1013": 1,
+                    "1017": 2,
+                    "1020": 1,
+                    "1021": 1,
+                    "1023": 2,
+                    "1024": 1,
+                    "1032": 1,
+                    "1033": 1,
+                    "1040": 1,
+                    "1043": 1,
+                    "1050": 5,
+                    "1051": 2,
+                    "1052": 3,
+                    "1053": 6,
+                    "1054": 6,
+                    "1055": 4,
+                    "1056": 1,
+                    "1068": 1,
+                    "1078": 1,
+                    "1096": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": 1044.7,
+                    "std": 6.0,
+                    "err_mean": 0.3,
+                    "err_std": 0,
+                    "n_points": 261
+                },
+                "summary": {
+                    "957": 1,
+                    "1043": 12,
+                    "1044": 119,
+                    "1045": 60,
+                    "1046": 20,
+                    "1047": 26,
+                    "1048": 19,
+                    "1049": 4
+                }
+            },
+            "05": {
+                "stats": {
+                    "mean": 1078.45,
+                    "std": 1.0,
+                    "err_mean": 0.07,
+                    "err_std": 0,
+                    "n_points": 261
+                },
+                "summary": {
+                    "1076": 1,
+                    "1077": 50,
+                    "1078": 117,
+                    "1079": 37,
+                    "1080": 40,
+                    "1081": 11,
+                    "1082": 5
+                }
+            },
+            "06": {
+                "stats": {
+                    "mean": 1000.46,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
+                    "n_points": 264
+                },
+                "summary": {
+                    "998": 3,
+                    "999": 67,
+                    "1000": 105,
+                    "1001": 36,
+                    "1002": 21,
+                    "1003": 16,
+                    "1004": 12,
+                    "1005": 3,
+                    "1006": 1
+                }
+            },
+            "07": {
+                "stats": {
+                    "mean": 1009.0,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 263
+                },
+                "summary": {
+                    "1006": 2,
+                    "1007": 41,
+                    "1008": 95,
+                    "1009": 56,
+                    "1010": 22,
+                    "1011": 23,
+                    "1012": 14,
+                    "1013": 6,
+                    "1014": 2,
+                    "1015": 1,
+                    "1040": 1
+                }
+            },
+            "08": {
+                "stats": {
+                    "mean": 1058.9,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
+                    "n_points": 260
+                },
+                "summary": {
+                    "1057": 26,
+                    "1058": 101,
+                    "1059": 69,
+                    "1060": 37,
+                    "1061": 26,
+                    "1092": 1
+                }
+            },
+            "09": {
+                "stats": {
+                    "mean": 969.3,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 264
+                },
+                "summary": {
+                    "966": 1,
+                    "967": 28,
+                    "968": 96,
+                    "969": 60,
+                    "970": 22,
+                    "971": 19,
+                    "972": 20,
+                    "973": 12,
+                    "974": 3,
+                    "975": 1,
+                    "976": 1,
+                    "1004": 1
+                }
+            },
+            "10": {
+                "stats": {
+                    "mean": 959.5,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 261
+                },
+                "summary": {
+                    "957": 8,
+                    "958": 93,
+                    "959": 73,
+                    "960": 26,
+                    "961": 21,
+                    "962": 21,
+                    "963": 12,
+                    "964": 5,
+                    "967": 1,
+                    "989": 1
+                }
+            },
+            "11": {
+                "stats": {
+                    "mean": 1009.7,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
+                    "n_points": 264
+                },
+                "summary": {
+                    "1007": 3,
+                    "1008": 59,
+                    "1009": 103,
+                    "1010": 29,
+                    "1011": 26,
+                    "1012": 25,
+                    "1013": 10,
+                    "1014": 6,
+                    "1015": 2,
+                    "1016": 1
+                }
+            },
+            "12": {
+                "stats": {
+                    "mean": 1033.4,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
+                    "n_points": 265
+                },
+                "summary": {
+                    "1030": 1,
+                    "1031": 6,
+                    "1032": 87,
+                    "1033": 92,
+                    "1034": 16,
+                    "1035": 21,
+                    "1036": 23,
+                    "1037": 16,
+                    "1038": 1,
+                    "1039": 2
+                }
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": 1055.9,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 257
+                },
+                "summary": {
+                    "1053": 1,
+                    "1054": 25,
+                    "1055": 106,
+                    "1056": 71,
+                    "1057": 25,
+                    "1058": 16,
+                    "1059": 11,
+                    "1060": 1,
+                    "1090": 1
+                }
+            },
+            "15": {
+                "stats": {
+                    "mean": 1014.8,
+                    "std": 1.0,
+                    "err_mean": 0.09,
+                    "err_std": 0,
+                    "n_points": 266
+                },
+                "summary": {
+                    "1011": 1,
+                    "1013": 25,
+                    "1014": 130,
+                    "1015": 48,
+                    "1016": 16,
+                    "1017": 26,
+                    "1018": 17,
+                    "1019": 3
+                }
+            },
+            "16": {
+                "stats": {
+                    "mean": 1028.4,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 265
+                },
+                "summary": {
+                    "1026": 8,
+                    "1027": 86,
+                    "1028": 85,
+                    "1029": 19,
+                    "1030": 39,
+                    "1031": 18,
+                    "1032": 7,
+                    "1033": 2,
+                    "1060": 1
+                }
+            },
+            "17": {
+                "stats": {
+                    "mean": 989.1,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 262
+                },
+                "summary": {
+                    "986": 1,
+                    "987": 28,
+                    "988": 100,
+                    "989": 62,
+                    "990": 24,
+                    "991": 23,
+                    "992": 18,
+                    "993": 4,
+                    "994": 1,
+                    "1020": 1
+                }
+            },
+            "18": {
+                "stats": {
+                    "mean": 996.4,
+                    "std": 2.0,
+                    "err_mean": 0.2,
+                    "err_std": 0,
+                    "n_points": 260
+                },
+                "summary": {
+                    "994": 6,
+                    "995": 87,
+                    "996": 87,
+                    "997": 28,
+                    "998": 21,
+                    "999": 22,
+                    "1000": 6,
+                    "1001": 1,
+                    "1002": 1,
+                    "1028": 1
+                }
+            },
+            "19": {
+                "stats": {
+                    "mean": 1024.9,
+                    "std": 2.0,
+                    "err_mean": 0.1,
+                    "err_std": 0,
+                    "n_points": 258
+                },
+                "summary": {
+                    "1023": 15,
+                    "1024": 140,
+                    "1025": 41,
+                    "1026": 25,
+                    "1027": 23,
+                    "1028": 12,
+                    "1030": 1,
+                    "1056": 1
+                }
+            }
+        }
+    },
+    "acq_MainBoard_20251127_184405": {
+        "configure": {
+            "pedestal_range": [
+                200,
+                400
+            ],
+            "pulse_range": [
+                800,
+                1100
+            ],
+            "time": "20251127_184700"
+        },
+        "pedestal": {
+            "01": {
+                "stats": {
+                    "mean": 264.24532224532226,
+                    "std": 0.43553600849024493,
+                    "err_mean": 0.019858732621019105,
+                    "err_std": 0,
+                    "n_points": 481
+                },
+                "summary": {
+                    "263": 1,
+                    "264": 361,
+                    "265": 119
+                }
+            },
+            "02": {
+                "stats": {
+                    "mean": 263.14137214137213,
+                    "std": 2.6623872019872725,
+                    "err_mean": 0.12139440722975868,
+                    "err_std": 0,
+                    "n_points": 481
+                },
+                "summary": {
+                    "206": 1,
+                    "262": 13,
+                    "263": 333,
+                    "264": 132,
+                    "266": 2
+                }
+            },
+            "03": {
+                "stats": {
+                    "mean": 262.88189128960374,
+                    "std": 4.3466630555890635,
+                    "err_mean": 0.01913419011228927,
+                    "err_std": 0,
+                    "n_points": 51605
+                },
+                "summary": {
+                    "211": 2,
+                    "232": 1,
+                    "235": 1,
+                    "236": 1,
+                    "238": 1,
+                    "240": 1,
+                    "243": 1,
+                    "245": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 1,
+                    "253": 1,
+                    "254": 1,
+                    "255": 18,
+                    "256": 1054,
+                    "257": 236,
+                    "258": 133,
+                    "259": 1058,
+                    "260": 5081,
+                    "261": 10115,
+                    "262": 6396,
+                    "263": 7690,
+                    "264": 10697,
+                    "265": 5366,
+                    "266": 1108,
+                    "267": 323,
+                    "268": 353,
+                    "269": 529,
+                    "270": 774,
+                    "271": 338,
+                    "272": 100,
+                    "273": 11,
+                    "274": 9,
+                    "275": 2,
+                    "276": 4,
+                    "277": 3,
+                    "278": 6,
+                    "279": 4,
+                    "280": 8,
+                    "281": 28,
+                    "282": 10,
+                    "283": 1,
+                    "284": 3,
+                    "285": 2,
+                    "286": 1,
+                    "287": 1,
+                    "288": 1,
+                    "289": 3,
+                    "290": 2,
+                    "292": 2,
+                    "295": 2,
+                    "296": 2,
+                    "297": 2,
+                    "298": 3,
+                    "299": 1,
+                    "300": 1,
+                    "301": 1,
+                    "302": 2,
+                    "303": 1,
+                    "304": 1,
+                    "305": 4,
+                    "306": 1,
+                    "307": 1,
+                    "309": 2,
+                    "310": 2,
+                    "313": 2,
+                    "314": 1,
+                    "315": 2,
+                    "316": 1,
+                    "317": 2,
+                    "319": 1,
+                    "320": 1,
+                    "321": 1,
+                    "322": 2,
+                    "323": 2,
+                    "324": 1,
+                    "325": 3,
+                    "326": 1,
+                    "327": 1,
+                    "328": 2,
+                    "330": 1,
+                    "331": 1,
+                    "332": 1,
+                    "333": 1,
+                    "334": 1,
+                    "335": 5,
+                    "336": 6,
+                    "337": 8,
+                    "338": 9,
+                    "339": 5,
+                    "340": 4,
+                    "341": 2,
+                    "342": 4,
+                    "343": 4,
+                    "345": 2,
+                    "346": 2,
+                    "348": 1,
+                    "349": 1,
+                    "350": 2,
+                    "351": 1,
+                    "353": 1,
+                    "354": 1,
+                    "364": 2,
+                    "378": 1,
+                    "379": 1,
+                    "383": 1,
+                    "384": 1,
+                    "390": 1,
+                    "393": 1,
+                    "398": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": 261.07068607068607,
+                    "std": 0.36967517722960064,
+                    "err_mean": 0.01685573720225458,
+                    "err_std": 0,
+                    "n_points": 481
+                },
+                "summary": {
+                    "260": 17,
+                    "261": 413,
+                    "262": 51
+                }
+            },
+            "05": {
+                "stats": {
+                    "mean": 256.2291666666667,
+                    "std": 0.4207351818541278,
+                    "err_mean": 0.019203845819795336,
+                    "err_std": 0,
+                    "n_points": 480
+                },
+                "summary": {
+                    "256": 370,
+                    "257": 110
+                }
+            },
+            "06": {
+                "stats": {
+                    "mean": 254.51659751037346,
+                    "std": 0.5737994244100009,
+                    "err_mean": 0.026135847604123963,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "253": 3,
+                    "254": 243,
+                    "255": 220,
+                    "256": 16
+                }
+            },
+            "07": {
+                "stats": {
+                    "mean": 261.36721991701245,
+                    "std": 0.5036293944167429,
+                    "err_mean": 0.0229396903194311,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "260": 5,
+                    "261": 295,
+                    "262": 182
+                }
+            },
+            "08": {
+                "stats": {
+                    "mean": 253.6078838174274,
+                    "std": 0.5054588526816124,
+                    "err_mean": 0.023023019859989453,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "253": 193,
+                    "254": 285,
+                    "255": 4
+                }
+            },
+            "09": {
+                "stats": {
+                    "mean": 256.7080745341615,
+                    "std": 0.5027693211441561,
+                    "err_mean": 0.022876796234842595,
+                    "err_std": 0,
+                    "n_points": 483
+                },
+                "summary": {
+                    "256": 152,
+                    "257": 320,
+                    "258": 11
+                }
+            },
+            "10": {
+                "stats": {
+                    "mean": 254.3340206185567,
+                    "std": 0.8975272041663276,
+                    "err_mean": 0.04075461095204854,
+                    "err_std": 0,
+                    "n_points": 485
+                },
+                "summary": {
+                    "253": 3,
+                    "254": 344,
+                    "255": 132,
+                    "256": 3,
+                    "257": 1,
+                    "266": 2
+                }
+            },
+            "11": {
+                "stats": {
+                    "mean": 270.0557851239669,
+                    "std": 0.45840167377469976,
+                    "err_mean": 0.020836439717031807,
+                    "err_std": 0,
+                    "n_points": 484
+                },
+                "summary": {
+                    "264": 1,
+                    "269": 15,
+                    "270": 422,
+                    "271": 44,
+                    "272": 2
+                }
+            },
+            "12": {
+                "stats": {
+                    "mean": 268.6804979253112,
+                    "std": 0.48853099944397,
+                    "err_mean": 0.022251977273219845,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "267": 2,
+                    "268": 153,
+                    "269": 324,
+                    "270": 3
+                }
+            },
+            "13": {
+                "stats": {
+                    "mean": 251.75876288659794,
+                    "std": 0.4696914270414976,
+                    "err_mean": 0.02132758905549715,
+                    "err_std": 0,
+                    "n_points": 485
+                },
+                "summary": {
+                    "251": 126,
+                    "252": 350,
+                    "253": 9
+                }
+            },
+            "14": {
+                "stats": {
+                    "mean": 258.8677685950413,
+                    "std": 0.43055453213274963,
+                    "err_mean": 0.01957066055148862,
+                    "err_std": 0,
+                    "n_points": 484
+                },
+                "summary": {
+                    "258": 81,
+                    "259": 386,
+                    "260": 17
+                }
+            },
+            "15": {
+                "stats": {
+                    "mean": 259.8755186721992,
+                    "std": 0.4338368211488184,
+                    "err_mean": 0.019760725717461135,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "259": 79,
+                    "260": 384,
+                    "261": 19
+                }
+            },
+            "16": {
+                "stats": {
+                    "mean": 254.88174273858922,
+                    "std": 0.6222809228833746,
+                    "err_mean": 0.028344119348248736,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "254": 119,
+                    "255": 304,
+                    "256": 58,
+                    "259": 1
+                }
+            },
+            "17": {
+                "stats": {
+                    "mean": 259.2240663900415,
+                    "std": 0.5763907160403097,
+                    "err_mean": 0.02625387770360904,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "258": 12,
+                    "259": 361,
+                    "260": 106,
+                    "263": 1,
+                    "264": 2
+                }
+            },
+            "18": {
+                "stats": {
+                    "mean": 263.202479338843,
+                    "std": 0.5110720774110955,
+                    "err_mean": 0.023230548973231614,
+                    "err_std": 0,
+                    "n_points": 484
+                },
+                "summary": {
+                    "262": 18,
+                    "263": 354,
+                    "264": 110,
+                    "266": 2
+                }
+            },
+            "19": {
+                "stats": {
+                    "mean": 264.8941908713693,
+                    "std": 0.42186531247633624,
+                    "err_mean": 0.019215438439459488,
+                    "err_std": 0,
+                    "n_points": 482
+                },
+                "summary": {
+                    "264": 70,
+                    "265": 394,
+                    "266": 17,
+                    "267": 1
+                }
+            }
+        },
+        "pulse": {
+            "01": {
+                "stats": {
+                    "mean": 1054.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1054": 3
+                }
+            },
+            "02": {
+                "stats": {
+                    "mean": 1039.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1039": 3
+                }
+            },
+            "03": {
+                "stats": {
+                    "mean": 836.6910530670134,
+                    "std": 36.61510302900601,
+                    "err_mean": 0.3980608013691619,
+                    "err_std": 0,
+                    "n_points": 8461
+                },
+                "summary": {
+                    "801": 182,
+                    "802": 172,
+                    "803": 149,
+                    "804": 182,
+                    "805": 184,
+                    "806": 162,
+                    "807": 182,
+                    "808": 196,
+                    "809": 161,
+                    "810": 176,
+                    "811": 156,
+                    "812": 171,
+                    "813": 153,
+                    "814": 162,
+                    "815": 158,
+                    "816": 135,
+                    "817": 153,
+                    "818": 176,
+                    "819": 155,
+                    "820": 153,
+                    "821": 143,
+                    "822": 156,
+                    "823": 148,
+                    "824": 132,
+                    "825": 132,
+                    "826": 99,
+                    "827": 117,
+                    "828": 118,
+                    "829": 111,
+                    "830": 127,
+                    "831": 98,
+                    "832": 100,
+                    "833": 93,
+                    "834": 114,
+                    "835": 95,
+                    "836": 118,
+                    "837": 88,
+                    "838": 93,
+                    "839": 105,
+                    "840": 91,
+                    "841": 75,
+                    "842": 82,
+                    "843": 89,
+                    "844": 100,
+                    "845": 72,
+                    "846": 79,
+                    "847": 73,
+                    "848": 78,
+                    "849": 79,
+                    "850": 62,
+                    "851": 81,
+                    "852": 74,
+                    "853": 60,
+                    "854": 58,
+                    "855": 61,
+                    "856": 70,
+                    "857": 60,
+                    "858": 56,
+                    "859": 70,
+                    "860": 54,
+                    "861": 50,
+                    "862": 53,
+                    "863": 50,
+                    "864": 49,
+                    "865": 51,
+                    "866": 50,
+                    "867": 33,
+                    "868": 38,
+                    "869": 30,
+                    "870": 37,
+                    "871": 27,
+                    "872": 25,
+                    "873": 34,
+                    "874": 25,
+                    "875": 24,
+                    "876": 33,
+                    "877": 26,
+                    "878": 28,
+                    "879": 21,
+                    "880": 33,
+                    "881": 28,
+                    "882": 20,
+                    "883": 16,
+                    "884": 34,
+                    "885": 17,
+                    "886": 26,
+                    "887": 18,
+                    "888": 9,
+                    "889": 20,
+                    "890": 19,
+                    "891": 11,
+                    "892": 11,
+                    "893": 12,
+                    "894": 15,
+                    "895": 15,
+                    "896": 8,
+                    "897": 11,
+                    "898": 12,
+                    "899": 16,
+                    "900": 23,
+                    "901": 38,
+                    "902": 72,
+                    "903": 46,
+                    "904": 14,
+                    "905": 14,
+                    "906": 6,
+                    "907": 6,
+                    "909": 1,
+                    "910": 1,
+                    "911": 2,
+                    "912": 2,
+                    "913": 1,
+                    "914": 1,
+                    "915": 1,
+                    "916": 1,
+                    "917": 1,
+                    "920": 3,
+                    "921": 2,
+                    "924": 1,
+                    "927": 1,
+                    "928": 3,
+                    "932": 1,
+                    "933": 2,
+                    "934": 1,
+                    "935": 1,
+                    "938": 2,
+                    "939": 1,
+                    "940": 1,
+                    "943": 1,
+                    "950": 1,
+                    "952": 1,
+                    "953": 1,
+                    "957": 1,
+                    "959": 2,
+                    "960": 2,
+                    "961": 1,
+                    "965": 2,
+                    "967": 1,
+                    "969": 1,
+                    "970": 1,
+                    "972": 1,
+                    "973": 1,
+                    "975": 2,
+                    "978": 2,
+                    "979": 1,
+                    "980": 1,
+                    "981": 3,
+                    "983": 3,
+                    "984": 2,
+                    "987": 1,
+                    "989": 1,
+                    "993": 3,
+                    "995": 1,
+                    "996": 1,
+                    "997": 1,
+                    "999": 1,
+                    "1000": 3,
+                    "1001": 1,
+                    "1002": 2,
+                    "1005": 1,
+                    "1006": 2,
+                    "1007": 2,
+                    "1009": 1,
+                    "1010": 1,
+                    "1012": 1,
+                    "1013": 1,
+                    "1014": 2,
+                    "1015": 4,
+                    "1016": 3,
+                    "1017": 3,
+                    "1018": 2,
+                    "1021": 2,
+                    "1024": 1,
+                    "1027": 1,
+                    "1028": 3,
+                    "1029": 1,
+                    "1031": 1,
+                    "1032": 2,
+                    "1033": 3,
+                    "1034": 1,
+                    "1035": 1,
+                    "1037": 2,
+                    "1040": 1,
+                    "1041": 1,
+                    "1043": 2,
+                    "1048": 3,
+                    "1049": 2,
+                    "1050": 3,
+                    "1051": 1,
+                    "1052": 1,
+                    "1053": 2,
+                    "1055": 2,
+                    "1057": 1,
+                    "1059": 1,
+                    "1060": 2,
+                    "1061": 1,
+                    "1063": 3,
+                    "1064": 1,
+                    "1065": 1,
+                    "1066": 2,
+                    "1067": 1,
+                    "1068": 3,
+                    "1069": 1,
+                    "1070": 1,
+                    "1072": 1,
+                    "1073": 1,
+                    "1075": 2,
+                    "1076": 2,
+                    "1077": 2,
+                    "1079": 1,
+                    "1081": 2,
+                    "1083": 2,
+                    "1085": 1,
+                    "1088": 1,
+                    "1089": 1,
+                    "1090": 1,
+                    "1092": 1,
+                    "1094": 2,
+                    "1095": 1,
+                    "1096": 1,
+                    "1097": 1,
+                    "1099": 2
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": 1043.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1043": 3
+                }
+            },
+            "05": {
+                "stats": {
+                    "mean": 1076.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1076": 3
+                }
+            },
+            "06": {
+                "stats": {
+                    "mean": 998.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "998": 1
+                }
+            },
+            "07": {
+                "stats": {
+                    "mean": 1007.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "1007": 1
+                }
+            },
+            "08": {
+                "stats": {
+                    "mean": 1056.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "1056": 1
+                }
+            },
+            "09": {
+                "stats": {
+                    "mean": 967.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "967": 1
+                }
+            },
+            "10": {
+                "stats": {
+                    "mean": 959.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 2
+                },
+                "summary": {
+                    "959": 2
+                }
+            },
+            "11": {
+                "stats": {
+                    "mean": 1009.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "1009": 1
+                }
+            },
+            "12": {
+                "stats": {
+                    "mean": 1031.3333333333333,
+                    "std": 0.5773502691896258,
+                    "err_mean": 0.33333333333333337,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1031": 2,
+                    "1032": 1
+                }
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": 1053.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "1053": 1
+                }
+            },
+            "15": {
+                "stats": {
+                    "mean": 1013.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1013": 3
+                }
+            },
+            "16": {
+                "stats": {
+                    "mean": 1026.6666666666667,
+                    "std": 0.5773502691896258,
+                    "err_mean": 0.33333333333333337,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1026": 1,
+                    "1027": 2
+                }
+            },
+            "17": {
+                "stats": {
+                    "mean": 987.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "987": 3
+                }
+            },
+            "18": {
+                "stats": {
+                    "mean": 996.0,
+                    "std": NaN,
+                    "err_mean": NaN,
+                    "err_std": 0,
+                    "n_points": 1
+                },
+                "summary": {
+                    "996": 1
+                }
+            },
+            "19": {
+                "stats": {
+                    "mean": 1022.0,
+                    "std": 0.0,
+                    "err_mean": 0.0,
+                    "err_std": 0,
+                    "n_points": 3
+                },
+                "summary": {
+                    "1022": 3
+                }
+            }
+        }
+    },
+    "acq_MainBoard_20251127_185024": {
+        "configure": {
+            "pedestal_range": [
+                200,
+                400
+            ],
+            "pulse_range": [
+                800,
+                1100
+            ],
+            "time": "20251127_185807"
+        },
+        "pedestal": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 262.7713813849239,
+                    "std": 4.133827282636745,
+                    "err_mean": 0.018329710697673023,
+                    "err_std": 0,
+                    "n_points": 50862
+                },
+                "summary": {
+                    "255": 18,
+                    "256": 1150,
+                    "257": 208,
+                    "258": 136,
+                    "259": 1139,
+                    "260": 5175,
+                    "261": 10217,
+                    "262": 6630,
+                    "263": 8162,
+                    "264": 10006,
+                    "265": 4708,
+                    "266": 831,
+                    "267": 259,
+                    "268": 322,
+                    "269": 588,
+                    "270": 721,
+                    "271": 310,
+                    "272": 73,
+                    "273": 2,
+                    "274": 1,
+                    "275": 4,
+                    "276": 4,
+                    "277": 6,
+                    "278": 8,
+                    "279": 5,
+                    "280": 8,
+                    "281": 15,
+                    "282": 9,
+                    "283": 5,
+                    "284": 3,
+                    "285": 2,
+                    "286": 5,
+                    "287": 1,
+                    "288": 1,
+                    "290": 3,
+                    "291": 1,
+                    "292": 3,
+                    "293": 2,
+                    "294": 1,
+                    "295": 2,
+                    "296": 2,
+                    "297": 2,
+                    "298": 2,
+                    "299": 2,
+                    "300": 1,
+                    "301": 2,
+                    "303": 1,
+                    "304": 2,
+                    "305": 1,
+                    "306": 1,
+                    "307": 1,
+                    "308": 3,
+                    "310": 1,
+                    "311": 2,
+                    "312": 3,
+                    "313": 1,
+                    "314": 2,
+                    "316": 1,
+                    "319": 3,
+                    "320": 3,
+                    "321": 3,
+                    "322": 3,
+                    "323": 1,
+                    "324": 3,
+                    "325": 2,
+                    "326": 1,
+                    "327": 2,
+                    "328": 1,
+                    "329": 1,
+                    "330": 4,
+                    "331": 2,
+                    "332": 1,
+                    "333": 3,
+                    "334": 2,
+                    "335": 5,
+                    "336": 3,
+                    "337": 2,
+                    "338": 7,
+                    "339": 6,
+                    "340": 5,
+                    "341": 1,
+                    "342": 2,
+                    "343": 2,
+                    "344": 4,
+                    "345": 3,
+                    "346": 3,
+                    "347": 4,
+                    "348": 3,
+                    "349": 2,
+                    "370": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        },
+        "pulse": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 832.2804020100502,
+                    "std": 26.850516310586748,
+                    "err_mean": 0.3217303865934733,
+                    "err_std": 0,
+                    "n_points": 6965
+                },
+                "summary": {
+                    "801": 168,
+                    "802": 160,
+                    "803": 161,
+                    "804": 188,
+                    "805": 149,
+                    "806": 158,
+                    "807": 146,
+                    "808": 143,
+                    "809": 156,
+                    "810": 143,
+                    "811": 138,
+                    "812": 155,
+                    "813": 138,
+                    "814": 135,
+                    "815": 147,
+                    "816": 139,
+                    "817": 146,
+                    "818": 134,
+                    "819": 115,
+                    "820": 129,
+                    "821": 122,
+                    "822": 110,
+                    "823": 94,
+                    "824": 111,
+                    "825": 114,
+                    "826": 108,
+                    "827": 112,
+                    "828": 99,
+                    "829": 97,
+                    "830": 96,
+                    "831": 84,
+                    "832": 75,
+                    "833": 88,
+                    "834": 93,
+                    "835": 70,
+                    "836": 90,
+                    "837": 81,
+                    "838": 88,
+                    "839": 64,
+                    "840": 82,
+                    "841": 81,
+                    "842": 60,
+                    "843": 81,
+                    "844": 86,
+                    "845": 65,
+                    "846": 70,
+                    "847": 65,
+                    "848": 58,
+                    "849": 47,
+                    "850": 43,
+                    "851": 49,
+                    "852": 62,
+                    "853": 52,
+                    "854": 54,
+                    "855": 47,
+                    "856": 35,
+                    "857": 44,
+                    "858": 47,
+                    "859": 49,
+                    "860": 54,
+                    "861": 41,
+                    "862": 40,
+                    "863": 38,
+                    "864": 30,
+                    "865": 32,
+                    "866": 39,
+                    "867": 23,
+                    "868": 26,
+                    "869": 29,
+                    "870": 24,
+                    "871": 21,
+                    "872": 26,
+                    "873": 24,
+                    "874": 15,
+                    "875": 24,
+                    "876": 15,
+                    "877": 17,
+                    "878": 12,
+                    "879": 15,
+                    "880": 10,
+                    "881": 15,
+                    "882": 20,
+                    "883": 11,
+                    "884": 12,
+                    "885": 17,
+                    "886": 12,
+                    "887": 12,
+                    "888": 12,
+                    "889": 11,
+                    "890": 9,
+                    "891": 10,
+                    "892": 9,
+                    "893": 12,
+                    "894": 8,
+                    "895": 13,
+                    "896": 10,
+                    "897": 20,
+                    "898": 16,
+                    "899": 20,
+                    "900": 35,
+                    "901": 77,
+                    "902": 69,
+                    "903": 32,
+                    "904": 7,
+                    "905": 2,
+                    "908": 1,
+                    "925": 1,
+                    "939": 1,
+                    "945": 1,
+                    "953": 1,
+                    "965": 1,
+                    "966": 1,
+                    "968": 1,
+                    "990": 1,
+                    "991": 1,
+                    "995": 1,
+                    "997": 1,
+                    "998": 1,
+                    "1000": 1,
+                    "1010": 1,
+                    "1013": 1,
+                    "1033": 1,
+                    "1075": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        }
+    },
+    "acq_MainBoard_20251127_190521": {
+        "configure": {
+            "pedestal_range": [
+                200,
+                400
+            ],
+            "pulse_range": [
+                800,
+                1100
+            ],
+            "time": "20251127_190710"
+        },
+        "pedestal": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 263.90254730713247,
+                    "std": 9.792808034502785,
+                    "err_mean": 0.04177186629412195,
+                    "err_std": 0,
+                    "n_points": 54960
+                },
+                "summary": {
+                    "255": 3,
+                    "256": 749,
+                    "257": 396,
+                    "258": 139,
+                    "259": 1110,
+                    "260": 5330,
+                    "261": 11698,
+                    "262": 8370,
+                    "263": 8506,
+                    "264": 9963,
+                    "265": 4069,
+                    "266": 600,
+                    "267": 301,
+                    "268": 644,
+                    "269": 867,
+                    "270": 566,
+                    "271": 339,
+                    "272": 124,
+                    "273": 9,
+                    "274": 5,
+                    "275": 4,
+                    "276": 3,
+                    "277": 3,
+                    "278": 14,
+                    "279": 15,
+                    "280": 57,
+                    "281": 30,
+                    "282": 7,
+                    "283": 3,
+                    "284": 2,
+                    "285": 2,
+                    "286": 6,
+                    "287": 5,
+                    "288": 2,
+                    "289": 3,
+                    "290": 2,
+                    "291": 3,
+                    "292": 2,
+                    "293": 4,
+                    "294": 4,
+                    "295": 1,
+                    "296": 2,
+                    "297": 3,
+                    "298": 5,
+                    "299": 3,
+                    "300": 7,
+                    "301": 6,
+                    "303": 4,
+                    "304": 5,
+                    "305": 4,
+                    "306": 7,
+                    "307": 6,
+                    "308": 10,
+                    "309": 8,
+                    "310": 2,
+                    "312": 6,
+                    "313": 2,
+                    "314": 5,
+                    "315": 5,
+                    "316": 6,
+                    "317": 3,
+                    "318": 4,
+                    "319": 1,
+                    "320": 11,
+                    "321": 3,
+                    "322": 6,
+                    "323": 12,
+                    "324": 7,
+                    "325": 11,
+                    "326": 9,
+                    "327": 8,
+                    "328": 13,
+                    "329": 25,
+                    "330": 43,
+                    "331": 42,
+                    "332": 51,
+                    "333": 68,
+                    "334": 51,
+                    "335": 71,
+                    "336": 62,
+                    "337": 69,
+                    "338": 63,
+                    "339": 61,
+                    "340": 83,
+                    "341": 64,
+                    "342": 38,
+                    "343": 16,
+                    "344": 4,
+                    "345": 1,
+                    "370": 1,
+                    "378": 1,
+                    "385": 1,
+                    "386": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            }
+        },
+        "pulse": {
+            "01": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "02": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "03": {
+                "stats": {
+                    "mean": 833.6760760760761,
+                    "std": 29.858939125713658,
+                    "err_mean": 0.42248045976292947,
+                    "err_std": 0,
+                    "n_points": 4995
+                },
+                "summary": {
+                    "801": 100,
+                    "802": 127,
+                    "803": 127,
+                    "804": 133,
+                    "805": 118,
+                    "806": 142,
+                    "807": 109,
+                    "808": 111,
+                    "809": 107,
+                    "810": 121,
+                    "811": 97,
+                    "812": 117,
+                    "813": 95,
+                    "814": 115,
+                    "815": 93,
+                    "816": 91,
+                    "817": 111,
+                    "818": 82,
+                    "819": 83,
+                    "820": 90,
+                    "821": 88,
+                    "822": 78,
+                    "823": 85,
+                    "824": 78,
+                    "825": 56,
+                    "826": 68,
+                    "827": 64,
+                    "828": 49,
+                    "829": 65,
+                    "830": 66,
+                    "831": 60,
+                    "832": 54,
+                    "833": 66,
+                    "834": 74,
+                    "835": 54,
+                    "836": 64,
+                    "837": 51,
+                    "838": 48,
+                    "839": 60,
+                    "840": 62,
+                    "841": 45,
+                    "842": 55,
+                    "843": 36,
+                    "844": 41,
+                    "845": 39,
+                    "846": 34,
+                    "847": 40,
+                    "848": 40,
+                    "849": 44,
+                    "850": 32,
+                    "851": 45,
+                    "852": 27,
+                    "853": 36,
+                    "854": 28,
+                    "855": 28,
+                    "856": 34,
+                    "857": 30,
+                    "858": 26,
+                    "859": 29,
+                    "860": 36,
+                    "861": 14,
+                    "862": 26,
+                    "863": 19,
+                    "864": 19,
+                    "865": 16,
+                    "866": 14,
+                    "867": 15,
+                    "868": 12,
+                    "869": 18,
+                    "870": 12,
+                    "871": 18,
+                    "872": 13,
+                    "873": 13,
+                    "874": 15,
+                    "875": 11,
+                    "876": 8,
+                    "877": 13,
+                    "878": 7,
+                    "879": 7,
+                    "880": 11,
+                    "881": 8,
+                    "882": 4,
+                    "883": 7,
+                    "884": 11,
+                    "885": 7,
+                    "886": 5,
+                    "887": 10,
+                    "888": 7,
+                    "889": 5,
+                    "890": 9,
+                    "891": 7,
+                    "892": 16,
+                    "893": 13,
+                    "894": 12,
+                    "895": 28,
+                    "896": 41,
+                    "897": 77,
+                    "898": 88,
+                    "899": 75,
+                    "900": 56,
+                    "901": 10,
+                    "902": 1,
+                    "903": 4,
+                    "905": 3,
+                    "906": 1,
+                    "908": 1,
+                    "909": 1,
+                    "910": 1,
+                    "917": 1,
+                    "937": 1,
+                    "950": 1,
+                    "961": 1,
+                    "965": 2,
+                    "966": 1,
+                    "971": 1,
+                    "972": 1,
+                    "973": 1,
+                    "979": 1,
+                    "983": 1,
+                    "985": 1,
+                    "987": 2,
+                    "989": 1,
+                    "990": 1,
+                    "1005": 1,
+                    "1010": 1,
+                    "1048": 1,
+                    "1075": 1,
+                    "1081": 1
+                }
+            },
+            "04": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "05": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "06": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "07": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "08": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "09": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "10": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "11": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "12": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "13": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "14": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "15": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "16": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "17": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "18": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
+                    "n_points": null
+                },
+                "summary": null
+            },
+            "19": {
+                "stats": {
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": null
                 },
                 "summary": null
