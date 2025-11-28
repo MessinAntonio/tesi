@@ -1,0 +1,16 @@
+{
+    "Board UPI": 6,
+    "Board SN": "e280116060000218e32232a0",
+    "Time": 1764332019.0,
+    "1V - GND jumper continuity": "OK",
+    "1V8 - GND jumper continuity": "OK",
+    "3V3 - GND jumper continuity": "OK",
+    "1V35 - GND jumper continuity": "OK",
+    "2V5 - GND jumper continuity": "OK",
+    "5VA - GND jumper continuity": "OK",
+    "5VA1 - GND jumper continuity": "OK",
+    "C26 - GND jumper continuity": "OK",
+    "D21 Presence Measurement": "0.65",
+    "D22 Presence Measurement": "0.65",
+    "48V supplied": "Fail"
+}

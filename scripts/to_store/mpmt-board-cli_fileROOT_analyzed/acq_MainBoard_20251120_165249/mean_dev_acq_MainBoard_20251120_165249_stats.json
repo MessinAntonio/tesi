@@ -8,7 +8,7 @@
             800,
             1100
         ],
-        "time": "20251127_165033"
+        "time": "20251128_115352"
     },
     "acq_MainBoard_20251120_165249": {
         "pedestal": {
@@ -17,7 +17,7 @@
                     "mean": 264.238,
                     "std": 0.9,
                     "err_mean": 0.002,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 202587
                 },
                 "summary": {
@@ -142,7 +142,7 @@
                     "mean": 261.43,
                     "std": 0.5,
                     "err_mean": 0.02,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 680
                 },
                 "summary": {
@@ -278,7 +278,7 @@
                     "mean": 1050.05,
                     "std": 0.9,
                     "err_mean": 0.03,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 973
                 },
                 "summary": {
@@ -347,7 +347,7 @@
                     "mean": 1020.5,
                     "std": 0.6,
                     "err_mean": 0.3,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 4
                 },
                 "summary": {

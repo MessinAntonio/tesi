@@ -8,7 +8,7 @@
             800,
             1100
         ],
-        "time": "20251127_165045"
+        "time": "20251128_115403"
     },
     "acq_MainBoard_20251121_151531": {
         "pedestal": {
@@ -37,7 +37,7 @@
                     "mean": 262.42,
                     "std": 5.0,
                     "err_mean": 0.02,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 76467
                 },
                 "summary": {
@@ -197,7 +197,7 @@
                     "mean": 261.426,
                     "std": 0.8,
                     "err_mean": 0.002,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 201211
                 },
                 "summary": {
@@ -316,7 +316,7 @@
                     "mean": 253.735,
                     "std": 0.5,
                     "err_mean": 0.001,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 201541
                 },
                 "summary": {
@@ -371,7 +371,7 @@
                     "mean": 259.103,
                     "std": 0.8,
                     "err_mean": 0.002,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 201224
                 },
                 "summary": {
@@ -482,7 +482,7 @@
                     "mean": 847.9,
                     "std": 60.0,
                     "err_mean": 0.9,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3405
                 },
                 "summary": {
@@ -762,7 +762,7 @@
                     "mean": 1010.82,
                     "std": 2.0,
                     "err_mean": 0.07,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 1231
                 },
                 "summary": {
@@ -877,7 +877,7 @@
                     "mean": 990.43,
                     "std": 2.0,
                     "err_mean": 0.07,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 1221
                 },
                 "summary": {

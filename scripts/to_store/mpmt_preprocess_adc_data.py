@@ -39,6 +39,9 @@ def printDebug(x):
     if DEBUG:
         print(x)
 
+def fmt(x):
+    return f"{x:.2f}" if isinstance(x, (float, int)) else "None"
+
 # ========== PER SALVATAGGIO STATISTICHE IN JSON ==========
 EMPTY_STATS = {
     "mean": None,
@@ -48,34 +51,61 @@ EMPTY_STATS = {
     "n_points": None
 }
 
-def round_sig(x, sig=1):
+def round_sig(x):
     if x == 0 or x is None:
         return 0
-    return round(x, sig - int(math.floor(math.log10(abs(x)))) - 1)
+    return round(x, - int(math.floor(math.log10(abs(x)))))
 
-# ==== STATISTICHE ==== 
+def ndigits(x):
+    if x == 0 or x is None:
+        return 0
+    return int(math.floor(math.log10(abs(x))))
+
+# ==== PER STATISTICHE ====
 def compute_stats(series):
     if series.empty:
         return EMPTY_STATS.copy()
-    
+
     n_points = len(series)
     mean = series.mean()
     std = series.std()
-    err_mean = std/math.sqrt(n_points)
 
-    # std = round(std, -math.floor(math.log10(abs(std))))
+    # Se mean o std sono NaN → None
+    mean = None if pd.isna(mean) else float(mean)
+    std  = None if pd.isna(std)  else float(std)
 
-    # ordine_mean = math.floor(math.log10(abs(err_mean)))
-    # err_mean = round(err_mean, -ordine_mean)
-    # mean = round(mean, -ordine_mean)
-    
+    # Calcolo errore sulla media (solo se std e n_points sono validi)
+    if std is None or n_points == 0:
+        err_mean = None
+    else:
+        err_mean = std / math.sqrt(n_points)
+        if pd.isna(err_mean):
+            err_mean = None
+
+    # Se std è None, non fare precisione
+    if std is not None and std != 0:
+        std = round_sig(std)
+
+    # Gestione arrotondamento mean / err_mean
+    if err_mean is not None and err_mean != 0:
+        ordine_mean = ndigits(err_mean)
+
+        # Arrotondamenti sicuri
+        mean = round(mean, -ordine_mean) if mean is not None else None
+        err_mean = round(err_mean, -ordine_mean)
+    else:
+        ordine_mean = None
+        # Non arrotondo
+        # lascia mean e err_mean così come sono
+
     return {
         "mean": mean,
         "std": std,
         "err_mean": err_mean,
-        "err_std": 0,
+        "err_std": None,
         "n_points": n_points
     }
+
 
 # ==== RIEPILOGO ====
 def compute_summary(series):
@@ -218,14 +248,14 @@ for file in os.listdir(input_dir):
             df_ch_std = stats.get("std")
 
             ax.hist(df_ch['adc'], bins, edgecolor='black', align='left')
-            ax.set_title(fr"Ch{ch_id:02d} ($\mu$ = {df_ch_mean:.2f})")
+            ax.set_title(fr"Ch{ch_id:02d} ($\mu$ = {fmt(df_ch_mean)})")
             ax.grid(True, linestyle="--", alpha=0.4)
 
             printDebug(f"info: Creazione istogramma per {keys} di canale {ch_id}")
             # istogramma
             plt.figure(figsize=(10,6))
             plt.hist(df_ch['adc'], bins, edgecolor='black', align='left')
-            plt.title(fr'Histogram ADC Ch{ch_id:02d} - {keys} ($\mu$ = {df_ch_mean:.2f} - $\sigma$ = {df_ch_std:.2f}) - {file_to_analyze}')
+            plt.title(fr'Histogram ADC Ch{ch_id:02d} - {keys} ($\mu$ = {fmt(df_ch_mean)} - $\sigma$ = {fmt(df_ch_std)}) - {file_to_analyze}')
             plt.xlabel('ADC')
             plt.ylabel('Counts')
             plt.xticks(bins)
@@ -262,6 +292,5 @@ with open("ALL_RESULTS.json", "w") as f_all:
 
 # Aggiungere un sommario per ogni file analizzato in cui inseriamo quanti canali hanno dati dati e quanti vuoti
 # Sistemare le cifre significative di media e varianza. Serve per step successivo
-
 
 # analizza sono un file, stampa a temrinale i valori, tramite parser decidi quale file analizzare e decidi se far visualizzare o meno i plot. Non deve salvare niente. 

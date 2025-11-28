@@ -8,16 +8,16 @@
             800,
             1100
         ],
-        "time": "20251127_184700"
+        "time": "20251128_115435"
     },
     "acq_MainBoard_20251127_184405": {
         "pedestal": {
             "01": {
                 "stats": {
-                    "mean": 264.24532224532226,
-                    "std": 0.43553600849024493,
-                    "err_mean": 0.019858732621019105,
-                    "err_std": 0,
+                    "mean": 264.25,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 481
                 },
                 "summary": {
@@ -28,10 +28,10 @@
             },
             "02": {
                 "stats": {
-                    "mean": 263.14137214137213,
-                    "std": 2.6623872019872725,
-                    "err_mean": 0.12139440722975868,
-                    "err_std": 0,
+                    "mean": 263.1,
+                    "std": 3.0,
+                    "err_mean": 0.1,
+                    "err_std": null,
                     "n_points": 481
                 },
                 "summary": {
@@ -44,10 +44,10 @@
             },
             "03": {
                 "stats": {
-                    "mean": 262.88189128960374,
-                    "std": 4.3466630555890635,
-                    "err_mean": 0.01913419011228927,
-                    "err_std": 0,
+                    "mean": 262.88,
+                    "std": 4.0,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 51605
                 },
                 "summary": {
@@ -165,10 +165,10 @@
             },
             "04": {
                 "stats": {
-                    "mean": 261.07068607068607,
-                    "std": 0.36967517722960064,
-                    "err_mean": 0.01685573720225458,
-                    "err_std": 0,
+                    "mean": 261.07,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 481
                 },
                 "summary": {
@@ -179,10 +179,10 @@
             },
             "05": {
                 "stats": {
-                    "mean": 256.2291666666667,
-                    "std": 0.4207351818541278,
-                    "err_mean": 0.019203845819795336,
-                    "err_std": 0,
+                    "mean": 256.23,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 480
                 },
                 "summary": {
@@ -192,10 +192,10 @@
             },
             "06": {
                 "stats": {
-                    "mean": 254.51659751037346,
-                    "std": 0.5737994244100009,
-                    "err_mean": 0.026135847604123963,
-                    "err_std": 0,
+                    "mean": 254.52,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -207,10 +207,10 @@
             },
             "07": {
                 "stats": {
-                    "mean": 261.36721991701245,
-                    "std": 0.5036293944167429,
-                    "err_mean": 0.0229396903194311,
-                    "err_std": 0,
+                    "mean": 261.37,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -221,10 +221,10 @@
             },
             "08": {
                 "stats": {
-                    "mean": 253.6078838174274,
-                    "std": 0.5054588526816124,
-                    "err_mean": 0.023023019859989453,
-                    "err_std": 0,
+                    "mean": 253.61,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -235,10 +235,10 @@
             },
             "09": {
                 "stats": {
-                    "mean": 256.7080745341615,
-                    "std": 0.5027693211441561,
-                    "err_mean": 0.022876796234842595,
-                    "err_std": 0,
+                    "mean": 256.71,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 483
                 },
                 "summary": {
@@ -249,10 +249,10 @@
             },
             "10": {
                 "stats": {
-                    "mean": 254.3340206185567,
-                    "std": 0.8975272041663276,
-                    "err_mean": 0.04075461095204854,
-                    "err_std": 0,
+                    "mean": 254.33,
+                    "std": 0.9,
+                    "err_mean": 0.04,
+                    "err_std": null,
                     "n_points": 485
                 },
                 "summary": {
@@ -266,10 +266,10 @@
             },
             "11": {
                 "stats": {
-                    "mean": 270.0557851239669,
-                    "std": 0.45840167377469976,
-                    "err_mean": 0.020836439717031807,
-                    "err_std": 0,
+                    "mean": 270.06,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 484
                 },
                 "summary": {
@@ -282,10 +282,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 268.6804979253112,
-                    "std": 0.48853099944397,
-                    "err_mean": 0.022251977273219845,
-                    "err_std": 0,
+                    "mean": 268.68,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -297,10 +297,10 @@
             },
             "13": {
                 "stats": {
-                    "mean": 251.75876288659794,
-                    "std": 0.4696914270414976,
-                    "err_mean": 0.02132758905549715,
-                    "err_std": 0,
+                    "mean": 251.76,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 485
                 },
                 "summary": {
@@ -311,10 +311,10 @@
             },
             "14": {
                 "stats": {
-                    "mean": 258.8677685950413,
-                    "std": 0.43055453213274963,
-                    "err_mean": 0.01957066055148862,
-                    "err_std": 0,
+                    "mean": 258.87,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 484
                 },
                 "summary": {
@@ -325,10 +325,10 @@
             },
             "15": {
                 "stats": {
-                    "mean": 259.8755186721992,
-                    "std": 0.4338368211488184,
-                    "err_mean": 0.019760725717461135,
-                    "err_std": 0,
+                    "mean": 259.88,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -339,10 +339,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 254.88174273858922,
-                    "std": 0.6222809228833746,
-                    "err_mean": 0.028344119348248736,
-                    "err_std": 0,
+                    "mean": 254.88,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -354,10 +354,10 @@
             },
             "17": {
                 "stats": {
-                    "mean": 259.2240663900415,
-                    "std": 0.5763907160403097,
-                    "err_mean": 0.02625387770360904,
-                    "err_std": 0,
+                    "mean": 259.22,
+                    "std": 0.6,
+                    "err_mean": 0.03,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -370,10 +370,10 @@
             },
             "18": {
                 "stats": {
-                    "mean": 263.202479338843,
-                    "std": 0.5110720774110955,
-                    "err_mean": 0.023230548973231614,
-                    "err_std": 0,
+                    "mean": 263.2,
+                    "std": 0.5,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 484
                 },
                 "summary": {
@@ -385,10 +385,10 @@
             },
             "19": {
                 "stats": {
-                    "mean": 264.8941908713693,
-                    "std": 0.42186531247633624,
-                    "err_mean": 0.019215438439459488,
-                    "err_std": 0,
+                    "mean": 264.89,
+                    "std": 0.4,
+                    "err_mean": 0.02,
+                    "err_std": null,
                     "n_points": 482
                 },
                 "summary": {
@@ -405,7 +405,7 @@
                     "mean": 1054.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -417,7 +417,7 @@
                     "mean": 1039.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -426,10 +426,10 @@
             },
             "03": {
                 "stats": {
-                    "mean": 836.6910530670134,
-                    "std": 36.61510302900601,
-                    "err_mean": 0.3980608013691619,
-                    "err_std": 0,
+                    "mean": 836.7,
+                    "std": 40.0,
+                    "err_mean": 0.4,
+                    "err_std": null,
                     "n_points": 8461
                 },
                 "summary": {
@@ -662,7 +662,7 @@
                     "mean": 1043.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -674,7 +674,7 @@
                     "mean": 1076.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -684,9 +684,9 @@
             "06": {
                 "stats": {
                     "mean": 998.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -696,9 +696,9 @@
             "07": {
                 "stats": {
                     "mean": 1007.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -708,9 +708,9 @@
             "08": {
                 "stats": {
                     "mean": 1056.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -720,9 +720,9 @@
             "09": {
                 "stats": {
                     "mean": 967.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -734,7 +734,7 @@
                     "mean": 959.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 2
                 },
                 "summary": {
@@ -744,9 +744,9 @@
             "11": {
                 "stats": {
                     "mean": 1009.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -755,10 +755,10 @@
             },
             "12": {
                 "stats": {
-                    "mean": 1031.3333333333333,
-                    "std": 0.5773502691896258,
-                    "err_mean": 0.33333333333333337,
-                    "err_std": 0,
+                    "mean": 1031.3,
+                    "std": 0.6,
+                    "err_mean": 0.3,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -779,9 +779,9 @@
             "14": {
                 "stats": {
                     "mean": 1053.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -793,7 +793,7 @@
                     "mean": 1013.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -802,10 +802,10 @@
             },
             "16": {
                 "stats": {
-                    "mean": 1026.6666666666667,
-                    "std": 0.5773502691896258,
-                    "err_mean": 0.33333333333333337,
-                    "err_std": 0,
+                    "mean": 1026.7,
+                    "std": 0.6,
+                    "err_mean": 0.3,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -818,7 +818,7 @@
                     "mean": 987.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
@@ -828,9 +828,9 @@
             "18": {
                 "stats": {
                     "mean": 996.0,
-                    "std": NaN,
-                    "err_mean": NaN,
-                    "err_std": 0,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null,
                     "n_points": 1
                 },
                 "summary": {
@@ -842,7 +842,7 @@
                     "mean": 1022.0,
                     "std": 0.0,
                     "err_mean": 0.0,
-                    "err_std": 0,
+                    "err_std": null,
                     "n_points": 3
                 },
                 "summary": {
