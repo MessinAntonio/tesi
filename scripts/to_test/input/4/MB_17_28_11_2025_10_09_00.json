@@ -12,14 +12,5 @@
     "C26 - GND jumper continuity": "OK",
     "D21 Presence Measurement": "0.65",
     "D22 Presence Measurement": "0.65",
-    "48V supplied": "OK",
-    "5V on W5VA Measurement": "5",
-    "5V on W5VA1 Measurement": "5",
-    "Jumpers closed": "OK",
-    "1V on W1V0 Measurement": "1",
-    "1.8V on W1V8 Measurement": "1.8",
-    "3.3V on W3V3 Measurement": "3.3",
-    "1.35V on W1V35 Measurement": "1.35",
-    "2.5V on W2V5 Measurement": "2.5",
-    "Connection to Host established": "OK"
+    "48V supplied": "Fail"
 }

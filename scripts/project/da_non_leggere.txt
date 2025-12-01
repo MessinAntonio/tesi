@@ -1,0 +1,51 @@
+project/
+│
+├── data/
+│ ├── processed/ 
+│ └── raw/ 
+|
+|
+├── src/
+│ ├── utils
+│ │ ├── __init__.py
+| | ├── build_json.py
+| | ├── plot_hist.py
+| | ├── root_processor.py
+│ │ └── stats_utils.py
+| |── __init__.py
+│ ├── config.py 
+│ ├── main.py   
+│ └── parser.py 
+│
+├── project.log
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│ ├── plots/ # Tutti i grafici
+│ │ ├── pedestal/
+│ │ └── pulse/
+│ ├── stats/ # File JSON statistiche
+│ └── reports/ # Report aggregati
+│
+├── results/
+│ └── ALL_RESULTS.json # Risultati consolidati
+│
+├── tests/ # Unit tests
+│ ├── __init__.py
+│ ├── test_statistics.py
+│ └── test_analysis.py
+│
+├── requirements.txt # Dipendenze Python
+├── README.md # Documentazione
+└── .gitignore

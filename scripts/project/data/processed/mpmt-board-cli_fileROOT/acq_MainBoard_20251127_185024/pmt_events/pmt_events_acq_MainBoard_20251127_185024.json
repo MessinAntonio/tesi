@@ -1,0 +1,637 @@
+{
+    "acq_MainBoard_20251127_185024": {
+        "01": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "02": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "03": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 50862,
+                    "mean": 262.77,
+                    "std": 4.0,
+                    "err_mean": 0.02,
+                    "err_std": 0
+                },
+                "summary": {
+                    "255": 18,
+                    "256": 1150,
+                    "257": 208,
+                    "258": 136,
+                    "259": 1139,
+                    "260": 5175,
+                    "261": 10217,
+                    "262": 6630,
+                    "263": 8162,
+                    "264": 10006,
+                    "265": 4708,
+                    "266": 831,
+                    "267": 259,
+                    "268": 322,
+                    "269": 588,
+                    "270": 721,
+                    "271": 310,
+                    "272": 73,
+                    "273": 2,
+                    "274": 1,
+                    "275": 4,
+                    "276": 4,
+                    "277": 6,
+                    "278": 8,
+                    "279": 5,
+                    "280": 8,
+                    "281": 15,
+                    "282": 9,
+                    "283": 5,
+                    "284": 3,
+                    "285": 2,
+                    "286": 5,
+                    "287": 1,
+                    "288": 1,
+                    "290": 3,
+                    "291": 1,
+                    "292": 3,
+                    "293": 2,
+                    "294": 1,
+                    "295": 2,
+                    "296": 2,
+                    "297": 2,
+                    "298": 2,
+                    "299": 2,
+                    "300": 1,
+                    "301": 2,
+                    "303": 1,
+                    "304": 2,
+                    "305": 1,
+                    "306": 1,
+                    "307": 1,
+                    "308": 3,
+                    "310": 1,
+                    "311": 2,
+                    "312": 3,
+                    "313": 1,
+                    "314": 2,
+                    "316": 1,
+                    "319": 3,
+                    "320": 3,
+                    "321": 3,
+                    "322": 3,
+                    "323": 1,
+                    "324": 3,
+                    "325": 2,
+                    "326": 1,
+                    "327": 2,
+                    "328": 1,
+                    "329": 1,
+                    "330": 4,
+                    "331": 2,
+                    "332": 1,
+                    "333": 3,
+                    "334": 2,
+                    "335": 5,
+                    "336": 3,
+                    "337": 2,
+                    "338": 7,
+                    "339": 6,
+                    "340": 5,
+                    "341": 1,
+                    "342": 2,
+                    "343": 2,
+                    "344": 4,
+                    "345": 3,
+                    "346": 3,
+                    "347": 4,
+                    "348": 3,
+                    "349": 2,
+                    "370": 1
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 6965,
+                    "mean": 832.3,
+                    "std": 30.0,
+                    "err_mean": 0.3,
+                    "err_std": 0
+                },
+                "summary": {
+                    "801": 168,
+                    "802": 160,
+                    "803": 161,
+                    "804": 188,
+                    "805": 149,
+                    "806": 158,
+                    "807": 146,
+                    "808": 143,
+                    "809": 156,
+                    "810": 143,
+                    "811": 138,
+                    "812": 155,
+                    "813": 138,
+                    "814": 135,
+                    "815": 147,
+                    "816": 139,
+                    "817": 146,
+                    "818": 134,
+                    "819": 115,
+                    "820": 129,
+                    "821": 122,
+                    "822": 110,
+                    "823": 94,
+                    "824": 111,
+                    "825": 114,
+                    "826": 108,
+                    "827": 112,
+                    "828": 99,
+                    "829": 97,
+                    "830": 96,
+                    "831": 84,
+                    "832": 75,
+                    "833": 88,
+                    "834": 93,
+                    "835": 70,
+                    "836": 90,
+                    "837": 81,
+                    "838": 88,
+                    "839": 64,
+                    "840": 82,
+                    "841": 81,
+                    "842": 60,
+                    "843": 81,
+                    "844": 86,
+                    "845": 65,
+                    "846": 70,
+                    "847": 65,
+                    "848": 58,
+                    "849": 47,
+                    "850": 43,
+                    "851": 49,
+                    "852": 62,
+                    "853": 52,
+                    "854": 54,
+                    "855": 47,
+                    "856": 35,
+                    "857": 44,
+                    "858": 47,
+                    "859": 49,
+                    "860": 54,
+                    "861": 41,
+                    "862": 40,
+                    "863": 38,
+                    "864": 30,
+                    "865": 32,
+                    "866": 39,
+                    "867": 23,
+                    "868": 26,
+                    "869": 29,
+                    "870": 24,
+                    "871": 21,
+                    "872": 26,
+                    "873": 24,
+                    "874": 15,
+                    "875": 24,
+                    "876": 15,
+                    "877": 17,
+                    "878": 12,
+                    "879": 15,
+                    "880": 10,
+                    "881": 15,
+                    "882": 20,
+                    "883": 11,
+                    "884": 12,
+                    "885": 17,
+                    "886": 12,
+                    "887": 12,
+                    "888": 12,
+                    "889": 11,
+                    "890": 9,
+                    "891": 10,
+                    "892": 9,
+                    "893": 12,
+                    "894": 8,
+                    "895": 13,
+                    "896": 10,
+                    "897": 20,
+                    "898": 16,
+                    "899": 20,
+                    "900": 35,
+                    "901": 77,
+                    "902": 69,
+                    "903": 32,
+                    "904": 7,
+                    "905": 2,
+                    "908": 1,
+                    "925": 1,
+                    "939": 1,
+                    "945": 1,
+                    "953": 1,
+                    "965": 1,
+                    "966": 1,
+                    "968": 1,
+                    "990": 1,
+                    "991": 1,
+                    "995": 1,
+                    "997": 1,
+                    "998": 1,
+                    "1000": 1,
+                    "1010": 1,
+                    "1013": 1,
+                    "1033": 1,
+                    "1075": 1
+                }
+            }
+        },
+        "04": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "05": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "06": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "07": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "08": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "09": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "10": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "11": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "12": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "13": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "14": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "15": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "16": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "17": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "18": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "19": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 input_dir = "input"
 
-rows = []   # conterrà un dizionario per ogni file JSON
+rows = []  
 
 dirs = os.listdir(input_dir)
 dirs = sorted(dirs, key=lambda x: int(x))
@@ -39,21 +39,13 @@ for dir_name in dirs:
             
         with open(input_file_path, "r") as file_json:
                 data = json.load(file_json)
-
-                # Se c'è una chiave vuota "", rinominala
-                cleaned = {("EMPTY_KEY" if k == "" else k): v for k, v in data.items()}
-
-                # Aggiungi la riga alla tabella
-                rows.append(cleaned)
+                rows.append(data)
 
 # Converte tutte le righe in un DataFrame
 df = pd.DataFrame(rows)
 print(df)
 
-cols_to_select = [
-    col for i, col in enumerate(df.columns)
-    if i == 0 or "Measurement" in col
-]
+cols_to_select = [col for i, col in enumerate(df.columns) if i == 0 or "Measurement" in col]
 
 df_data = df[cols_to_select]
 
