@@ -1,0 +1,327 @@
+project/
+│
+├── data/
+│ ├── processed/ 
+| | └── mpmt-board-cli_fileROOT
+| | | ├── acq_MainBoard_20251110_134104
+| | | | └── led_events
+| | | | | └── led_events_acq_MainBoard_20251110_134104.csv
+| | | | └── pmt_events
+| | | | | └── pmt_events_acq_MainBoard_20251110_134104.csv
+| | | | | └── pmt_events_acq_MainBoard_20251110_134104.json
+| | | ├── acq_MainBoard_20251110_134104
+| | | | └── led_events
+| | | | └── pmt_events
+| | | └── acq_MainBoard_20251110_134104
+| | | | └── led_events
+| | | | └── pmt_events
+│ └── raw/ 
+| | |── mpmt-board-cli_fileROOT
+| | | ├── acq_MainBoard_20251110_134104.raw
+| | | ├── acq_MainBoard_20251110_134104.raw
+| | | └── acq_MainBoard_20251110_134104.raw
+| | |
+├── src/
+│ ├── utils
+│ │ ├── __init__.py
+| | ├── build_json.py
+| | ├── plot_hist.py
+| | ├── root_processor.py
+│ │ └── stats_utils.py
+| |── __init__.py
+│ ├── config.py 
+│ ├── main.py   
+│ └── parser.py 
+│
+├── project.log
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│
+│ ├── plots/ # Tutti i grafici
+│ │ ├── pedestal/
+│ │ └── pulse/
+│ ├── stats/ # File JSON statistiche
+│ └── reports/ # Report aggregati
+│
+├── results/
+│ └── ALL_RESULTS.json # Risultati consolidati
+│
+├── tests/ # Unit tests
+│ ├── __init__.py
+│ ├── test_statistics.py
+│ └── test_analysis.py
+│
+├── requirements.txt # Dipendenze Python
+├── README.md # Documentazione
+└── .gitignore
+
+
+
+C:.
+│   da_non_leggere.txt
+│   project.log
+│
+├───data
+│   ├───processed
+│   │   └───mpmt-board-cli_fileROOT
+│   │       │   ALL_RESULTS.json
+│   │       │
+│   │       ├───acq_MainBoard_20251110_134104
+│   │       │   ├───led_events
+│   │       │   │       led_events_acq_MainBoard_20251110_134104.csv
+│   │       │   │
+│   │       │   └───pmt_events
+│   │       │       │   pmt_events_acq_MainBoard_20251110_134104.csv
+│   │       │       │   pmt_events_acq_MainBoard_20251110_134104.json
+│   │       │       │
+│   │       │       └───plots
+│   │       │           │   Histogram ALL CHANNELS - pedestal - acq_MainBoard_20251110_134104.png
+│   │       │           │   Histogram ALL CHANNELS - pulse - acq_MainBoard_20251110_134104.png
+│   │       │           │
+│   │       │           ├───pedestal
+│   │       │           │       pedestal - Histogram ADC Ch01 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch02 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch03 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch04 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch05 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch06 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch07 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch08 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch09 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch10 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch11 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch12 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch13 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch14 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch15 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch16 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch17 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch18 - acq_MainBoard_20251110_134104.png
+│   │       │           │       pedestal - Histogram ADC Ch19 - acq_MainBoard_20251110_134104.png
+│   │       │           │
+│   │       │           └───pulse
+│   │       │                   pulse - Histogram ADC Ch01 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch02 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch03 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch04 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch05 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch06 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch07 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch08 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch09 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch10 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch11 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch12 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch13 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch14 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch15 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch16 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch17 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch18 - acq_MainBoard_20251110_134104.png
+│   │       │                   pulse - Histogram ADC Ch19 - acq_MainBoard_20251110_134104.png
+│   │       │
+│   │       ├───acq_MainBoard_20251110_153952
+│   │       │   ├───led_events
+│   │       │   │       led_events_acq_MainBoard_20251110_153952.csv
+│   │       │   │
+│   │       │   └───pmt_events
+│   │       │       │   pmt_events_acq_MainBoard_20251110_153952.csv
+│   │       │       │   pmt_events_acq_MainBoard_20251110_153952.json
+│   │       │       │
+│   │       │       └───plots
+│   │       │           │   Histogram ALL CHANNELS - pedestal - acq_MainBoard_20251110_153952.png
+│   │       │           │   Histogram ALL CHANNELS - pulse - acq_MainBoard_20251110_153952.png
+│   │       │           │
+│   │       │           ├───pedestal
+│   │       │           │       pedestal - Histogram ADC Ch01 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch02 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch03 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch04 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch05 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch06 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch07 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch08 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch09 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch10 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch11 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch12 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch13 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch14 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch15 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch16 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch17 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch18 - acq_MainBoard_20251110_153952.png
+│   │       │           │       pedestal - Histogram ADC Ch19 - acq_MainBoard_20251110_153952.png
+│   │       │           │
+│   │       │           └───pulse
+│   │       │                   pulse - Histogram ADC Ch01 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch02 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch03 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch04 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch05 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch06 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch07 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch08 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch09 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch10 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch11 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch12 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch13 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch14 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch15 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch16 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch17 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch18 - acq_MainBoard_20251110_153952.png
+│   │       │                   pulse - Histogram ADC Ch19 - acq_MainBoard_20251110_153952.png
+│   │       │
+│   │       ├───acq_MainBoard_20251127_175303
+│   │       │   ├───led_events
+│   │       │   │       led_events_acq_MainBoard_20251127_175303.csv
+│   │       │   │
+│   │       │   └───pmt_events
+│   │       │       │   pmt_events_acq_MainBoard_20251127_175303.csv
+│   │       │       │   pmt_events_acq_MainBoard_20251127_175303.json
+│   │       │       │
+│   │       │       └───plots
+│   │       │           │   Histogram ALL CHANNELS - pedestal - acq_MainBoard_20251127_175303.png
+│   │       │           │   Histogram ALL CHANNELS - pulse - acq_MainBoard_20251127_175303.png
+│   │       │           │
+│   │       │           ├───pedestal
+│   │       │           │       pedestal - Histogram ADC Ch01 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch02 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch03 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch04 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch05 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch06 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch07 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch08 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch09 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch10 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch11 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch12 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch13 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch14 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch15 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch16 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch17 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch18 - acq_MainBoard_20251127_175303.png
+│   │       │           │       pedestal - Histogram ADC Ch19 - acq_MainBoard_20251127_175303.png
+│   │       │           │
+│   │       │           └───pulse
+│   │       │                   pulse - Histogram ADC Ch01 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch02 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch03 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch04 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch05 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch06 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch07 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch08 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch09 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch10 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch11 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch12 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch13 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch14 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch15 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch16 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch17 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch18 - acq_MainBoard_20251127_175303.png
+│   │       │                   pulse - Histogram ADC Ch19 - acq_MainBoard_20251127_175303.png
+│   │       │
+│   │       └───acq_MainBoard_20251127_185024
+│   │           ├───led_events
+│   │           │       led_events_acq_MainBoard_20251127_185024.csv
+│   │           │
+│   │           └───pmt_events
+│   │               │   pmt_events_acq_MainBoard_20251127_185024.csv
+│   │               │   pmt_events_acq_MainBoard_20251127_185024.json
+│   │               │
+│   │               └───plots
+│   │                   │   Histogram ALL CHANNELS - pedestal - acq_MainBoard_20251127_185024.png
+│   │                   │   Histogram ALL CHANNELS - pulse - acq_MainBoard_20251127_185024.png
+│   │                   │
+│   │                   ├───pedestal
+│   │                   │       pedestal - Histogram ADC Ch01 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch02 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch03 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch04 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch05 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch06 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch07 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch08 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch09 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch10 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch11 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch12 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch13 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch14 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch15 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch16 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch17 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch18 - acq_MainBoard_20251127_185024.png
+│   │                   │       pedestal - Histogram ADC Ch19 - acq_MainBoard_20251127_185024.png
+│   │                   │
+│   │                   └───pulse
+│   │                           pulse - Histogram ADC Ch01 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch02 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch03 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch04 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch05 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch06 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch07 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch08 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch09 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch10 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch11 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch12 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch13 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch14 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch15 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch16 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch17 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch18 - acq_MainBoard_20251127_185024.png
+│   │                           pulse - Histogram ADC Ch19 - acq_MainBoard_20251127_185024.png
+│   │
+│   └───raw
+│       └───mpmt-board-cli_fileROOT
+│               acq_MainBoard_20251110_134104.root
+│               acq_MainBoard_20251110_153952.root
+│               acq_MainBoard_20251127_175303.root
+│               acq_MainBoard_20251127_185024.root
+│
+└───src
+    │   config.py
+    │   main.py
+    │   parser.py
+    │   __init__.py
+    │
+    ├───utils
+    │   │   build_json.py
+    │   │   plot_hist.py
+    │   │   root_processor.py
+    │   │   stats_utils.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__
+    │           build_json.cpython-314.pyc
+    │           plot_hist.cpython-314.pyc
+    │           root_processor.cpython-314.pyc
+    │           stats_utils.cpython-314.pyc
+    │           __init__.cpython-314.pyc
+    │
+    └───__pycache__
+            config.cpython-314.pyc
+            main.cpython-314.pyc
+            parser.cpython-314.pyc
+            __init__.cpython-314.pyc

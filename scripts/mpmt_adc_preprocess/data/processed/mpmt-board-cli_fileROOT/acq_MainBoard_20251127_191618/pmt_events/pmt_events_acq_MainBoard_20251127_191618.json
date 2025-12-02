@@ -1,0 +1,448 @@
+{
+    "acq_MainBoard_20251127_191618": {
+        "01": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "02": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "03": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 194,
+                    "mean": 263.6,
+                    "std": 3.0,
+                    "err_mean": 0.2,
+                    "err_std": 0
+                },
+                "summary": {
+                    "259": 4,
+                    "260": 12,
+                    "261": 26,
+                    "262": 30,
+                    "263": 22,
+                    "264": 56,
+                    "265": 20,
+                    "266": 4,
+                    "269": 6,
+                    "270": 8,
+                    "271": 4,
+                    "272": 2
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 14,
+                    "mean": 831.0,
+                    "std": 20.0,
+                    "err_mean": 5.0,
+                    "err_std": 0
+                },
+                "summary": {
+                    "809": 2,
+                    "814": 2,
+                    "821": 2,
+                    "827": 2,
+                    "829": 2,
+                    "857": 2,
+                    "859": 2
+                }
+            }
+        },
+        "04": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 200870,
+                    "mean": 258.8474,
+                    "std": 0.4,
+                    "err_mean": 0.0009,
+                    "err_std": 0
+                },
+                "summary": {
+                    "257": 3,
+                    "258": 35464,
+                    "259": 160580,
+                    "260": 4823
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "05": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "06": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "07": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "08": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "09": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "10": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "11": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "12": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "13": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "14": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "15": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "16": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "17": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "18": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        },
+        "19": {
+            "pedestal": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": null,
+                    "mean": null,
+                    "std": null,
+                    "err_mean": null,
+                    "err_std": null
+                },
+                "summary": null
+            }
+        }
+    }
+}
