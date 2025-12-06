@@ -1,3 +1,7 @@
+test: acq_MainBoard_20251202_125428 -> scheda: 1.3.2.1/FD/2.10
+test: acq_MainBoard_20251202_181123 -> scheda: 1.3.2.1/FD/2.11
+test: acq_MainBoard_20251203_144729 -> scheda: 1.3.2.1/FD/2.12
+
 project/
 │
 ├── data/
@@ -325,3 +329,6 @@ C:.
             main.cpython-314.pyc
             parser.cpython-314.pyc
             __init__.cpython-314.pyc
+
+
+rate inferiori per pulse dato che pulse: 25 HZ x 10s

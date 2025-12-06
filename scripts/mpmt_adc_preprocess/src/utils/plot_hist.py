@@ -4,7 +4,6 @@ import numpy as np
 
 from ..config import *
 from ..parser import *
-from ..main import *
 
 from .stats_utils import *
 
@@ -26,7 +25,7 @@ def empty_channel_hist(ax, ch_id, interval_type, filename, dir_output_plot_keys)
         os.path.join(
             dir_output_plot_keys,
             f'{interval_type} - Histogram ADC Ch{ch_id:02d} - {filename}.png'
-        ), dpi = dpi
+        ), dpi = DPI
     )
     plt.close(fig_single)
     return
@@ -35,23 +34,26 @@ def empty_channel_hist(ax, ch_id, interval_type, filename, dir_output_plot_keys)
 def channel_hist(df_ch, ax, bins, ch_id, interval_type, filename, dir_output_plot_keys):
     n_points, df_ch_mean, df_ch_std, err_mean, err_std = compute_stats(df_ch)
 
-    ax.hist(df_ch['adc'], bins, edgecolor='black', align='left')
+    ax.hist(df_ch['adc'], bins, edgecolor='black', align='left', label=fr"$\mu$ = {df_ch_mean}" + "\n" + fr"$\sigma$ = {df_ch_std:.3f}")
     ax.set_title(fr"Ch{ch_id:02d} ($\mu$ = {df_ch_mean})")
     ax.grid(True, linestyle="--", alpha=0.4)
+    ax.legend(loc='best', fontsize=8)
 
+    # ---- DAJE ROMA ----
     ticks = np.linspace(min(bins), max(bins), 5, dtype=int)
     fig_single = plt.figure(figsize=figsize)
-    plt.hist(df_ch['adc'], bins, edgecolor='black', align='left')
-    plt.title(fr'Histogram ADC Ch{ch_id:02d} - {interval_type} ($\mu$ = {df_ch_mean} - $\sigma$ = {df_ch_std}) - {filename}')
+    plt.hist(df_ch['adc'], bins, edgecolor='black', align='left', label=fr"$\mu$ = {df_ch_mean}" + "\n" + fr"$\sigma$ = {df_ch_std:.3f}")
+    plt.title(fr'Histogram Main Board {filename} - ADC Ch{ch_id:02d} - {interval_type}')
     plt.xlabel(xlabel)
     plt.xticks(ticks)
     plt.ylabel(ylabel)
     plt.grid(True, linestyle="--", alpha=0.4)
+    plt.legend(loc='best', fontsize=10)
     plt.savefig(
         os.path.join(
             dir_output_plot_keys,
             f'{interval_type} - Histogram ADC Ch{ch_id:02d} - {filename}.png'
-        ), dpi = dpi
+        ), dpi = DPI
     )
     plt.close(fig_single)  
     return
@@ -89,7 +91,7 @@ def save_combined_plot(fig, interval_type, filename, dir_output_plot):
     plt.savefig(
         os.path.join(
             dir_output_plot, f'Histogram ALL CHANNELS - {interval_type} - {filename}.png'
-        ), dpi = dpi
+        ), dpi = DPI
     )
     plt.close()
 
@@ -108,5 +110,7 @@ def plot_hist(DataFrame, dir_path, filename, fixed_range_x, fixed_range_y):
 
         for idx, ch_id in enumerate(NUMB_CHANNELS): 
             process_channel_hist(DataFrame,min_adc,max_adc,idx,ch_id,axes,interval_type,filename,dir_output_plot_keys)
+
+        axes[-1].set_visible(False)
 
         save_combined_plot(fig, interval_type, filename, dir_output_plot)

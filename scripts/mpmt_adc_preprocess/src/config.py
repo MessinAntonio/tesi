@@ -21,28 +21,26 @@ logging.basicConfig(
 # ==== DIRECTORY ====
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 DATA_RAW_DIR = os.path.join(DATA_DIR, "raw")
-PROCESSED_DATA_DIR = os.path.join(DATA_DIR, "processed")
 
 # ========== OUTPUT ==========
 # ==== DIRECTORY ====
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
+PROCESSED_DATA_DIR = os.path.join(DATA_DIR, "processed")
 
 # ==== DIRECTORYS DA VERIFICARE ====
 REQUIRED_DIRS = [
     DATA_DIR,           # Cartella in cui sono presenti i dati, da elaborare ed elaborati
     DATA_RAW_DIR,       # Cartella contenente i file da elaborare
     PROCESSED_DATA_DIR, # Cartella contenente diversi file estrapolati dai dati elaborati
-    OUTPUT_DIR          # Cartella con gli output importanti (json)
 ]
 
 # ==== INTERVALLI DI INTERESSE PER LE USCITE NUMERICHE DELL'ADC ====
 INTERVALS = {
-    "pedestal": [200,400], # Valori tipici per il piedistallo
-    "pulse": [800,1100]    # Valori tipici per il segnale
+    "pedestal": [230,300], # Valori tipici per il piedistallo
+    "pulse": [900,1100]    # Valori tipici per il segnale
 } # I valori sono espressi in uscite numeriche dell'ADC (0-4095 per ADC a 12 bit)
 
 NUMB_CHANNELS = range(1,20)
-dpi = 200
+DPI = 200
 
 # ==== FUNZIONE PER VERIFICARE LA PRESENZA DELLE CARTELLE NECESSARIE ====
 def ensure_directory(directory: str) -> None:

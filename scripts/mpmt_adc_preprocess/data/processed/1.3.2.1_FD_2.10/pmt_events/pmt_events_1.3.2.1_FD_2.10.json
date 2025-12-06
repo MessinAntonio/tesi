@@ -1,0 +1,553 @@
+{
+    "1.3.2.1_FD_2.10": {
+        "info_test": {
+            "pedestal": {
+                "mu_failed": [],
+                "sigma_failed": [
+                    "06",
+                    "09"
+                ]
+            },
+            "pulse": {
+                "mu_failed": [
+                    "13"
+                ],
+                "sigma_failed": [
+                    "05"
+                ]
+            }
+        },
+        "01": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52126,
+                    "mu": 264.201,
+                    "sigma": 0.5919429955558654,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 252,
+                    "mu": 1022.9,
+                    "sigma": 1.8812657486514932,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "02": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52131,
+                    "mu": 263.21,
+                    "sigma": 0.6342430530815918,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 250,
+                    "mu": 1035.4,
+                    "sigma": 2.4786607343774536,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "03": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52122,
+                    "mu": 255.928,
+                    "sigma": 0.4693361088817773,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 252,
+                    "mu": 958.5,
+                    "sigma": 1.7154131076487453,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "04": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52126,
+                    "mu": 260.996,
+                    "sigma": 0.5579715537381026,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 250,
+                    "mu": 984.8,
+                    "sigma": 1.770276678395863,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "05": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52118,
+                    "mu": 256.205,
+                    "sigma": 0.5062297410900235,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 244,
+                    "mu": 1013.2,
+                    "sigma": 2.805012210907362,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Fail"
+                }
+            }
+        },
+        "06": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52125,
+                    "mu": 254.895,
+                    "sigma": 0.6494878996732839,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Fail"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 982.9,
+                    "sigma": 2.5535226820315113,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "07": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52125,
+                    "mu": 261.467,
+                    "sigma": 0.5787337430321147,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 974.1,
+                    "sigma": 3.4722301867991883,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "08": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52115,
+                    "mu": 253.685,
+                    "sigma": 0.6096268170457851,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 246,
+                    "mu": 960.7,
+                    "sigma": 2.6448449692246214,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "09": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52123,
+                    "mu": 256.697,
+                    "sigma": 0.5747514324469438,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Fail"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 960.06,
+                    "sigma": 1.581415977541616,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "10": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52131,
+                    "mu": 254.23,
+                    "sigma": 0.5401339204865885,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 254,
+                    "mu": 978.5,
+                    "sigma": 2.526622125383349,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "11": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52125,
+                    "mu": 270.101,
+                    "sigma": 0.5780902932467947,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 975.5,
+                    "sigma": 1.671623968847986,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "12": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52130,
+                    "mu": 268.836,
+                    "sigma": 0.6300658895908693,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 1004.3,
+                    "sigma": 1.6659993351921116,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "13": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52118,
+                    "mu": 251.76,
+                    "sigma": 0.54285777505096,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 245,
+                    "mu": 961.9,
+                    "sigma": 1.7593320457605153,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Fail",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "14": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52121,
+                    "mu": 258.851,
+                    "sigma": 0.5241554992101304,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 242,
+                    "mu": 1018.51,
+                    "sigma": 1.5519810270078847,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "15": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52127,
+                    "mu": 259.849,
+                    "sigma": 0.5469064964692373,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 253,
+                    "mu": 965.7,
+                    "sigma": 1.6285592659280366,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "16": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52118,
+                    "mu": 254.76,
+                    "sigma": 0.6472323212074471,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 254,
+                    "mu": 963.7,
+                    "sigma": 4.086589242097233,
+                    "err_mu": 0.3,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "17": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52126,
+                    "mu": 259.23,
+                    "sigma": 0.5817479629751064,
+                    "err_mu": 0.003,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 245,
+                    "mu": 948.4,
+                    "sigma": 2.32753744949225,
+                    "err_mu": 0.1,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "18": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52121,
+                    "mu": 263.142,
+                    "sigma": 0.5489205339393335,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 250,
+                    "mu": 977.9,
+                    "sigma": 2.598921617574718,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        },
+        "19": {
+            "pedestal": {
+                "stats": {
+                    "n_points": 52119,
+                    "mu": 264.934,
+                    "sigma": 0.5393024265780892,
+                    "err_mu": 0.002,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            },
+            "pulse": {
+                "stats": {
+                    "n_points": 251,
+                    "mu": 988.2,
+                    "sigma": 2.4371559415977755,
+                    "err_mu": 0.2,
+                    "err_sigma": 0
+                },
+                "summary": {
+                    "mu_valid": "Ok",
+                    "sigma_valid": "Ok"
+                }
+            }
+        }
+    }
+}
